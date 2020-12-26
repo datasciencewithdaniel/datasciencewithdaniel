@@ -1,0 +1,3 @@
+[submodule "themes/themes/landscape"]
+	path = themes/themes/landscape
+	url = https://github.com/hexojs/hexo-theme-landscape
