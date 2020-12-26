@@ -3,7 +3,9 @@ menu:
   Home: /
   General: /general
   Archives: /archives
-rss: /atom.xml
+  Community: / # TO UPDATE
+  Contact: / # TO UPDATE
+# rss: /atom.xml
 banner: "images/banner.jpg"
 
 # Content
