@@ -103,5 +103,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: aws-s3
+  bucket: datasciencewithdaniel.com.au
+  region: ap-southeast-2
 
