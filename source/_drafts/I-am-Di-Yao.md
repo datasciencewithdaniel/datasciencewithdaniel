@@ -1,0 +1,12 @@
+---
+title: I am Di Yao
+categories:
+  - profiles
+author: Di Yao 
+tags:
+---
+I am in my final year of Master of Data Science at the University of Western Australia. I studied Accounting and Finance in my undergraduate studies, which developed my analytical skills and enabled me to realise how data science is helpful in every industry. So I decided to pursue a master's in data science. 
+
+Coming from a non-programming background, it was challenging at the beginning to learn all the different programming languages like Python, R and SQL. However, it also has been a rewarding jouney to be able to apply what we learn in class to different projects. I also enjoy statistics and use different statistical methods to understand and explore data. My data science journey would have not been complete without all the help from my amazing friends and professors, and I hope this community can bring all of us together to learn and enjoy data science. 
+
+In my final year of my studies, I would love to have more practical experience and prepare myself for the workforce. It has been a fascinating journey and I am very looking forward to continuing learning. 
