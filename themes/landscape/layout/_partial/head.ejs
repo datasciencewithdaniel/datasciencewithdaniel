@@ -13,7 +13,11 @@
       title += ': ' + page.year;
     }
   } else if (is_category()){
-    title = __('category') + ': ' + page.category;
+    if (page.category === 'general') {
+      title = '';
+    } else {
+      title = __('category') + ': ' + page.category;
+    }
   } else if (is_tag()){
     title = __('tag') + ': ' + page.tag;
   }
