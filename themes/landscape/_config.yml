@@ -1,8 +1,8 @@
 # Header
 menu:
-  Home: /categories/general 
+  Home: /categories/general/
   Welcome: /2020/12/27/Welcome-to-Data-Science-with-Daniel/
-  Archives: /archives
+  Archives: /archives/
   Community: https://join.slack.com/t/datasciencewithdaniel/shared_invite/zt-kbtkj61v-rzIxPRQJFbupva~rM6Vtbg
   Contact: mailto:datasciencewithdaniel@gmail.com
 # rss: /atom.xml
