@@ -1,7 +1,7 @@
 ---
 title: Welcome to Data Science with Daniel
 categories:
-  - general
+  - [general]
 author: Daniel
 date: 2020-12-27 11:10:40
 tags: 

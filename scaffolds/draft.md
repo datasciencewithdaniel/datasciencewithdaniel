@@ -2,6 +2,6 @@
 title: {{ title }}
 author: 
 categories: 
-    - general
+    - [general]
 tags:
 ---

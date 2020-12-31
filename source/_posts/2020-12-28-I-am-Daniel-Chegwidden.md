@@ -2,11 +2,10 @@
 title: I am Daniel Chegwidden
 author: Daniel Chegwidden
 categories:
-  - profiles
+  - [profiles]
 date: 2020-12-28 10:19:12
 tags:
 ---
-
 
 I am about to enter my final year of a Master of Data Science at the University of Western Australia. My data science journey started 2 years prior when I commenced this course after starting to work at the university. I originally completed a degree in Accounting and Finance before working in both banking and auditing, but I have found my passion with data science.
 

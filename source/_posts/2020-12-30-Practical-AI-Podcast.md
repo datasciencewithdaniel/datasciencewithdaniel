@@ -2,12 +2,11 @@
 title: Practical AI Podcast
 author: Daniel Chegwidden
 categories:
-  - general
-  - resources
+  - [general]
+  - [resources]
 date: 2020-12-30 17:33:32
 tags:
 ---
-
 
 One of the challenges facing Data Scientists is keeping up to date with the rapid pace of development in the field. Knowing where to go, through all the noise, and finding relevant content in a timely manner is no easy task. The Practical AI podcast is a resource that I began listening to on my commute in the morning, to learn more about data science when I first started studying. A lot of the content went straight over my head as I had no idea what most of the technical terms meant in the beginning.
 
