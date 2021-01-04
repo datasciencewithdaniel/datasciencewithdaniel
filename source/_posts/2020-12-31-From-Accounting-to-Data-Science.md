@@ -3,7 +3,7 @@ title: From Accounting to Data Science
 author: Daniel Chegwidden
 categories:
   - [general]
-  - [education, student]
+  - [education]
 date: 2020-12-31 17:01:06
 tags:
 ---
