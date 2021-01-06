@@ -1,9 +1,10 @@
 ---
 title: Putting the Stats in Data Science
-categories:
-  - [general]
-  - [education]
 author: Di Yao
+categories:
+  - [general] 
+  - [education]
+date: 2021-01-06 21:10:04
 tags:
 ---
 
