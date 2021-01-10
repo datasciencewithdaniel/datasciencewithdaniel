@@ -18,6 +18,7 @@
     "hexo-generator-author": "0.0.5",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
+    "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-next-coauthor": "github:theme-next/hexo-next-coauthor",
     "hexo-renderer-ejs": "^1.0.0",

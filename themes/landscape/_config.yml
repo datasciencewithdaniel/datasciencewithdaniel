@@ -7,7 +7,7 @@ menu:
   Community: https://join.slack.com/t/datasciencewithdaniel/shared_invite/zt-l1799pi8-K97oJ4SvhuygEvjLk1XFjA
   Contact: mailto:contact@datasciencewithdaniel.com.au
 # rss: /atom.xml
-banner: "images/banner.jpg"
+banner: images/banner.jpg
 # banner: "images/aerial.jpg"
 subtitle: ''
 
@@ -29,10 +29,10 @@ copyright:
 sidebar: right
 widgets:
 - category
-- tag
-- tagcloud
-- archive
+# - tag
+# - tagcloud
 - recent_posts
+- archive
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -42,13 +42,15 @@ index_widgets:
 
 # Widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 recent_posts_limits: 5
 
 # Miscellaneous
 google_analytics: G-BWM62DGB1J
 gauges_analytics:
-favicon: /favicon.png
+# favicon: /favicon.png
+# favicon: /themes/landscape/source/css/images/favicon.ico
+favicon: images/favicon.ico
 twitter:
 fb_admins:
 fb_app_id:

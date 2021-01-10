@@ -1,6 +1,3 @@
----
-title: README
----
 
 Welcome to Data Science with Daniel!
 
