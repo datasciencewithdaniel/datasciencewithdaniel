@@ -1,14 +1,17 @@
 ---
 title: Bringing Machine Learning to Farming
-categories:
-  - [general]
-  - [coding, python]
-  - [projects]
-  - [careers]
 author: Daniel Chegwidden
+categories:
+  - - general
+  - - coding
+    - python
+  - - projects
+  - - careers
 number: 8
+date: 2021-01-18 16:13:53
 tags:
 ---
+
 
 ![](/images/CanolaSlim.jpg)
 
