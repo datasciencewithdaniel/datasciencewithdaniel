@@ -4,9 +4,11 @@ categories:
   - [general]
   - [resources]
 author: Daniel Chegwidden
-number:
+number: 9
 tags:
 ---
+
+![](/images/GoSlim.jpg)
 
 When I started to learn about machine learning, I wondered the same as everyone else, what could be possible with this technologies. Of course my studies started out with the basics, the different types of models and where they could be applied. But there was also content about what was cutting edge, things like reinforcement learning.
 
