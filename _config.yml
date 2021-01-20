@@ -6,7 +6,14 @@
 title: Data Science with Daniel
 subtitle: ''
 description: ''
-keywords:
+keywords: 
+  - data science with daniel
+  - data science 
+  - machine learning 
+  - education
+  - community
+  - blog
+  - hexo
 author: Daniel
 language: en
 timezone: ''
@@ -45,6 +52,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
