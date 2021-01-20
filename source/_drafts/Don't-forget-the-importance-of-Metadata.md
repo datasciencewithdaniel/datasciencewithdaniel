@@ -6,7 +6,7 @@ categories: general
 number:
 tags:
 ---
-![Source : https://earthobservatory.nasa.gov/images/6605/agricultural-patterns](/images/agriculture_satelliteIimage.jpg)
+![Source : Earth Observatory NASA](/images/agriculture_satelliteIimage.jpg)
 
 Agricultural technology(Agri-Tech) is a portfolio of products and serivices that help the agricultural industry, these could range from products that help in reducing operational costs of the client(developing algorithms for efficiently moving and storing food), to make policy decisions (What are the crops that need a subsidy that particular season).
 Working at an  Agri-Tech consultancy has taught me a few things about data and drawing inferences from it. The most profound of them is the ability to tell the most useful piece of information from the least . It might happen that the most significant piece of information is actually the metadata. It is a file that is auxillary to the main file and typically contains information describing the data  that might be helpful in answering rudimentary questions about the contents of the main file.
