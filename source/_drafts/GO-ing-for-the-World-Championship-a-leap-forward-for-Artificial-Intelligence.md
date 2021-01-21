@@ -1,10 +1,10 @@
 ---
-title: 'GO-ing for the World Championship, a leap forward for Artificial Intelligence'
+title: GO-ing for the World Championship, a leap forward for Artificial Intelligence
 categories:
   - [general]
   - [resources]
 author: Daniel Chegwidden
-number: 9
+number: 10
 tags:
 ---
 
@@ -16,4 +16,4 @@ Reinforcement learning is where the machine takes actions, and then receives a r
 
 This is where I discovered [AlphaGo](https://deepmind.com/research/case-studies/alphago-the-story-so-far). Created by DeepMind, a leading artificial intelligence research company, it built on previous work for chess and applied it to the game of Go. The actions that the machine takes are placing the pieces on the board, and the end result is to win the game. It was trained by watching lots of games of Go, and then against different versions of itself to learn. Watching the [documentary](https://www.youtube.com/watch?v=WXuK6gekU1Y) really gave me insights into this data science accomplishment, and seeing the model go on to play the World Champion at the time.
 
-Further work on AlphaGo has seen the technology develop to be able to learn and achieve success without knowing the rules of the game and just by playing against itself, rather than having large amounts of training games to watch. These advancements are driving artificial intelligence research and the methods and processes can be applied to other areas where the technology is being applied, such as self-driving cars.
+Further work on AlphaGo has seen the technology develop to be able to learn and achieve success without knowing the rules of the game and just by playing against itself, rather than having large amounts of training games to watch ([check out this blog post](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules)). These advancements are driving artificial intelligence research and the methods and processes can be applied to other areas where the technology is being applied, such as self-driving cars.
