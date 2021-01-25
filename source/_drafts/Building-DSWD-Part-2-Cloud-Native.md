@@ -4,15 +4,18 @@ categories:
   - [general]
   - [cloud]
   - [projects]
+  - [series]
 author: Daniel Chegwidden
 number: 
 tags:
 ---
 
+![](/images/Post_Cloud.png)
+
 [Part 1](https://www.datasciencewithdaniel.com.au/2021/01/10/Building-DSWD-Part-1-Gitting-Started/)
 This is the second post in the series exploring the creation of the *Data Science with Daniel* site.
 
-Making ths site accessible for a low cost with high availability is the goal. Having completed the Cloud Computing unit the previous semester, the obvious choice due to familiarity was to leverage Amazon Web Services (AWS). The services that play a major role is the Simple Storage Solution (S3), Route 53, and the content delivery network, CloudFront.
+Making ths site accessible for a low cost with high availability is the goal. Having completed the Cloud Computing unit the previous semester, the obvious choice due to familiarity was to leverage Amazon Web Services (AWS). The services that play a major role is the [Simple Storage Solution](https://aws.amazon.com/s3/) (S3), [Route 53](https://aws.amazon.com/route53/), and the content delivery network, [CloudFront](https://aws.amazon.com/cloudfront/).
 
 Hexo has a lot of useful plugins that have been developed by the community. Installing the S3 Deployer and changing the config file allows for one-command deployment to an S3 bucket. This bucket was created and setup to host a static website by making the contents public, which was very easy to follow the steps on AWS. S3 works well in this situation as it will automatically scale with the demand to ensure that the site is always accessible.
 

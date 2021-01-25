@@ -13,7 +13,7 @@ tags:
 ---
 
 
-![](/images/CanolaSlim.jpg)
+![](/images/Post_Canola.png)
 
 Part of my role over the summer at [Wesfarmers](http://www.wescef.com.au/) is to predict nutrient levels in plants based off a spectral scan of leaf samples. This was a new challenge for me, I have never worked with spectral data before and first I had to learn about near-infrared and how nutrients can be found through these scans. Luckily for me, the research had already been done by the team and there was a lot of documentation in the wiki to guide me.
 
