@@ -7,11 +7,11 @@ categories:
   - [coding, html]
   - [coding, javascript]
   - [projects]
+  - [series]
 number: 6
 date: 2021-01-11 16:25:14
 tags:
 ---
-
 
 This is the first in a series of posts that explores the creation of the *Data Science with Daniel* site, from the research done to the technologies used.
 
