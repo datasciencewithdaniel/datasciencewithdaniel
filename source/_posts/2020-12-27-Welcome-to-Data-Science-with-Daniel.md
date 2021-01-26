@@ -8,12 +8,18 @@ number: 1
 tags: 
 ---
 
+![](/images/Post_Space.png)
+
 Welcome to *Data Science with Daniel!*
 
-This is a place where Data Scientists can come together to learn from each other and share their experiences. Whether you are a data science student starting your journey or a seasoned professional with years of experience, we want to hear from you. Everyone has a journey that has led them to data science and has had a unique learning experience since then.
+We seek to build a community of Data Scientists, so that we can share our passion and learn together. We do this by bringing everything and everyone together in one place; *Data Science with Daniel*.
 
-*Data Science with Daniel* also has a Slack community where data science students, professionals and academics can come together to share insights, ask questions and solve problems. There is a wealth of information out there to help Data Scientists, and we want to ensure that newcomers feel welcomed and supported, and those with experience can pass on their learnings to this next generation. If you ever have a question or are feeling lost, *Data Science with Daniel* is the place to go, simply click on **Community** in the navigation bar to find us.
+For Students; We support anyone on their Data Science journey by providing an environment where they can ask questions, find answers and connect with others.
 
-Everyone has something to say, and if you feel like sharing that with other Data Scientists, then get in contact and be part of growing the data science community for the better. If you are happy with reading the stories on this site, then that is alright too, and we hope you learn something that helps you succeed in your future.
+For Industry; We engage with industry to understand the Data Science landscape and ensure that the next generation of Data Scientists develop the skills to succeed in their career.
+
+For Academics; We promote studying Data Science to bring new people into the field and provide feedback to improve these studies. 
+
+If you want to be part of our community, click on the **Community** tab to join the Slack and connect with fellow Data Scientists. If you have something to say, you can write and contribute posts through our [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel), or if you are happy reading the stories on this site, then that is alright too. We hope that you learn something that helps you succeed in your future.
 
 I look forward to seeing you online.
