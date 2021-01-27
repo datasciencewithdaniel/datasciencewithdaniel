@@ -7,6 +7,8 @@ author: Di Yao
 number: 11
 tags:
 ---
+![](/images/Post_StudyingOnline.png)
+
 2020 has been a year filled with unprecedented challenges, especially for students and universities. My studies in [Master of Data Science](https://www.uwa.edu.au/study/courses/master-of-data-science) at the University of Western Australia have been moved online and we had to adapt to these changes quickly. 
 
 Flexibility is the best part about studying online, as most lectures and labs are recorded, it provides the flexibility to watch them at any time. There are also multiple lab sessions for each subject, and I could attend as many as I needed to. I found that the lab sessions have become more helpful and more collaborative, where I could learn from other students asking their questions and discuss concepts that I had not explored before.
