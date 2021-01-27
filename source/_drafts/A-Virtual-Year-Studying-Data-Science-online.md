@@ -7,7 +7,7 @@ author: Di Yao
 number: 11
 tags:
 ---
-![](/images/Post_StudyingOnline.png)
+![](/images/Post_Online.png)
 
 2020 has been a year filled with unprecedented challenges, especially for students and universities. My studies in [Master of Data Science](https://www.uwa.edu.au/study/courses/master-of-data-science) at the University of Western Australia moved online and we had to adapt to these changes quickly. 
 
