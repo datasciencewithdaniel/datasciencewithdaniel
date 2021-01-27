@@ -18,5 +18,3 @@ The weirdest thing would be doing exams at home, especially with open book exams
 The university and its staff members put in an enormous effort to support students through the transition to online studies. Many professors had organised additional consultation hours to assist students and give as much guidance as they could, to ensure that we had a good understanding about concepts and assignment tasks. There are areas to be improved in this process, but it was a first for the professors as well.
 
 I enjoyed the past virtual year with my studies and learnt so much more about Data Science every day. So hopefully 2021 can teach us all something new!
-
-test test 
