@@ -20,6 +20,6 @@ For Industry; We engage with industry to understand the Data Science landscape a
 
 For Academics; We promote studying Data Science to bring new people into the field and provide feedback to improve these studies. 
 
-If you want to be part of our community, click on the **Community** tab to join the Slack and connect with fellow Data Scientists. If you have something to say, you can write and contribute posts through our [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel), or if you are happy reading the stories on this site, then that is alright too. We hope that you learn something that helps you succeed in your future.
+If you want to be part of our community, click on the **Community** tab to join the Slack and connect with fellow Data Scientists. If you have something to say, you can write and contribute posts through our [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel), or if you are happy reading the stories on this site, then that is alright too. We hope that you learn something that helps you succeed in your future. Check out other other posts [here](/categories/general/).
 
 I look forward to seeing you online.
