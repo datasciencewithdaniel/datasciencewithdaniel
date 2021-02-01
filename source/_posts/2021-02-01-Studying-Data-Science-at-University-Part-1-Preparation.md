@@ -1,11 +1,12 @@
 ---
 title: 'Studying Data Science at University Part 1: Preparation'
+author: Daniel Chegwidden
 categories:
   - [general]
   - [education]
   - [series]
-author: Daniel Chegwidden
 number: 12
+date: 2021-02-01 14:09:54
 tags:
 ---
 
