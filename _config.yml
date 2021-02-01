@@ -15,7 +15,9 @@ keywords:
   - blog
   - hexo
 author: Daniel
-language: en
+language: 
+  - en
+  # - zh-CN
 timezone: ''
 
 # URL
