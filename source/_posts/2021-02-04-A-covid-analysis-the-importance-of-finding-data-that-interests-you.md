@@ -4,16 +4,14 @@ author:
   - Daniel Chegwidden
   - Di Yao
 categories:
-  - - general
-  - - education
-  - - projects
-  - - coding
-    - python
+  - [general]
+  - [education]
+  - [projects]
+  - [coding, python]
 number: 13
 date: 2021-02-04 09:31:22
 tags:
 ---
-
 
 ![](/images/Post_Covid.png)
 
