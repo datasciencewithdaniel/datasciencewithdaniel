@@ -4,6 +4,7 @@ author: Di Yao
 categories:
   - [general]
   - [education]
+  - [projects]
   - [coding, python]
 number: 7
 date: 2021-01-14 15:27:55
