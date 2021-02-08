@@ -1,12 +1,13 @@
 ---
 title: 'Building DSWD Part 2: Cloud Native'
+author: Daniel Chegwidden
 categories:
   - [general]
   - [cloud]
   - [projects]
   - [series]
-author: Daniel Chegwidden
 number: 14
+date: 2021-02-08 13:46:00
 tags:
 ---
 
