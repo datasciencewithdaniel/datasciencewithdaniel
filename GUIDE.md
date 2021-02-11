@@ -15,9 +15,7 @@ Check to see if you have git installed, if not, install it from [here](https://g
 $ git --version
 ```
 
-NEED TO ADD SSH KEYS HERE! AND ADD GITHUB ACCOUNT!
-
-To access the GitHub repo, you need to fork it on [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel/) at the top right, which makes a copy of it on your own account. Once it has been forked, you can create a clone on your local computer.
+Sign up to GitHub and add your SSH keys to your config. To access the GitHub repo, you need to fork it on [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel/) at the top right, which makes a copy of it on your own account. Once it has been forked, you can create a clone on your local computer.
 
 ```
 $ git clone git@github.com:datasciencewithdaniel/datasciencewithdaniel.git
@@ -110,5 +108,16 @@ $ git push origin master
 
 You can now follow the steps again to make any more changes that you want, such as writing another post.
 
+## Management of changes | ADMIN ONLY
+Once the pull request has been submitted, review and submit further commits until the changes are ready to be accepted. Accept the pull request and merge the changes into the ```development``` branch. Once any further changes are merged in, follow the same steps to merge the ```development``` branch into the ```master``` branch.
 
+Complete the following steps the bring the ```development``` and ```master``` branches into alignment.
+
+```
+$ git checkout master
+$ git pull origin master
+$ git checkout development
+$ git pull origin master
+$ git push origin development
+```
 
