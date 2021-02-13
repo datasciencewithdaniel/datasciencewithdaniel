@@ -1,5 +1,5 @@
 
-![](./source/images/Logo.png)
+![](./source/_images/Banner.png)
 
 ![last commit](https://img.shields.io/github/last-commit/datasciencewithdaniel/datasciencewithdaniel/master?style=plastic)
 ![issues](https://img.shields.io/github/issues/datasciencewithdaniel/datasciencewithdaniel?style=plastic)
