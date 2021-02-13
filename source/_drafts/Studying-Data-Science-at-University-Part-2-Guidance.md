@@ -20,4 +20,4 @@ This is one of the benefits of studying at University, you have study plans wher
 
 In addition to the course structure, having world-class professors who are always accessible and can add their experience to the content. There are many amazing people that are driving the Data Science field forward across the world, however having a direct link to someone that you can ask the questions that you are wondering about is a great way to make sure you understand what you are learning in depth.
 
-
+Having someone say that you will know this much by this time, and these are the things you need to know, makes the learning experience smoother and more enjoyable. I am not saying that every aspiring Data Scientists is required to going back to University, but having that guidance and support is a major benefit. You need to figure out what works for you and how you learn, the option is always there.

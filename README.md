@@ -8,4 +8,5 @@
 
 Welcome to Data Science with Daniel!
 
-See the site and join the community at [DSWD](https://www.datasciencewithdaniel.com.au)
+We seek to build a community of Data Scientists, so that we can share our passion and learn together. We do this by bringing everything and everyone together in one place; [Data Science with Daniel](ttps://www.datasciencewithdaniel.com.au).
+
