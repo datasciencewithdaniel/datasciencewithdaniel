@@ -1,7 +1,10 @@
 
-![](/source/images/logo.png)
+![](./source/images/logo.png)
 
-https://img.shields.io/github/last-commit/datasciencewithdaniel/datasciencewithdaniel/master?style=plastic https://img.shields.io/github/issues/datasciencewithdaniel/datasciencewithdaniel?style=plastic https://img.shields.io/github/issues-pr/datasciencewithdaniel/datasciencewithdaniel?style=plastic https://img.shields.io/github/languages/code-size/datasciencewithdaniel/datasciencewithdaniel
+![last commit](https://img.shields.io/github/last-commit/datasciencewithdaniel/datasciencewithdaniel/master?style=plastic)
+![issues](https://img.shields.io/github/issues/datasciencewithdaniel/datasciencewithdaniel?style=plastic)
+![pull requests](https://img.shields.io/github/issues-pr/datasciencewithdaniel/datasciencewithdaniel?style=plastic)
+![code size](https://img.shields.io/github/languages/code-size/datasciencewithdaniel/datasciencewithdaniel)
 
 Welcome to Data Science with Daniel!
 
