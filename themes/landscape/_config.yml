@@ -1,11 +1,13 @@
 # Header
 menu:
   Welcome: /2020/12/27/Welcome-to-Data-Science-with-Daniel/
+  About: /images/About.png
   Blog: /categories/general/
-  Archives: /archives/
+  # Archives: /archives/
   Connect: https://linkedin.com/company/data-science-with-daniel/
   Community: https://join.slack.com/t/datasciencewithdaniel/shared_invite/zt-l1799pi8-K97oJ4SvhuygEvjLk1XFjA
   Contact: mailto:contact@datasciencewithdaniel.com.au
+
 # rss: /atom.xml
 # banner: images/banner.jpg
 banner: "images/Banner_Logo.png"
