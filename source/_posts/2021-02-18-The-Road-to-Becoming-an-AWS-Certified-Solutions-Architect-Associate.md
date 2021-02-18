@@ -2,15 +2,14 @@
 title: The Road to Becoming an AWS Certified Solutions Architect Associate
 author: Daniel Chegwidden
 categories:
-  - - general
-  - - education
-  - - careers
-  - - resources
+  - [general]
+  - [education]
+  - [careers]
+  - [resources]
 number: 17
 date: 2021-02-18 14:05:05
 tags:
 ---
-
 
 ![](/images/Post_AWS.png)
 
