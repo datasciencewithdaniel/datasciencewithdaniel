@@ -32,10 +32,10 @@ jobs:
 
       - name: Install Node.js
         run: |
-          npm install hexo-cli -g
-          npm install npm@latest -g
-          npm install hexo-deployer-aws-s3 --save
-          npm install
+          sudo npm install hexo-cli -g
+          sudo npm install npm@latest -g
+          sudo npm install hexo-deployer-aws-s3 --save
+          sudo npm install
 
       - name: Step 4
         run: echo 'step 4'
