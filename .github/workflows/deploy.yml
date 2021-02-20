@@ -13,40 +13,52 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Use Node
+      - name: Step 1
         run: echo 'step 1'
+
+      - name: Use Node
         uses: actions/setup-node@v2
 
-      - name: Checkout Repo
+      - name: Step 2
         run: echo 'step 2'
+
+      - name: Checkout Repo
         uses: actions/checkout@v2
         with:
           ref: master
-      
-      - name: Install Node.js
+
+      - name: Step 3
         run: echo 'step 3'
+
+      - name: Install Node.js
         run: |
           npm install hexo-cli -g
           npm install npm@latest -g
           npm install hexo-deployer-aws-s3 --save
           npm install
-          
-      - name: Prepare Content
+
+      - name: Step 4
         run: echo 'step 4'
+
+      - name: Prepare Content
         run: |
           hexo clean
           hexo generate
-          
-      - name: Configure AWS credentials from Production account
+
+      - name: Step 5
         run: echo 'step 5'
+
+      - name: Configure AWS credentials from Production account
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-southeast-2
-          
-      - name: Deploy
+
+      - name: Step 6
         run: echo 'step 6'
+
+      - name: Deploy
         run: |
           hexo deploy
       
