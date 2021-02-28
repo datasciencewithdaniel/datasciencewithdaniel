@@ -12,3 +12,12 @@ Welcome to Data Science with Daniel!
 
 We seek to build a community of Data Scientists, so that we can share our passion and learn together. We do this by bringing everything and everyone together in one place; [Data Science with Daniel](https://www.datasciencewithdaniel.com.au).
 
+Join our community on Slack by clicking on the **Community** tab on the site, or come to our **Genius Bar** on Friday's by clicking on that tab too, where you can ask any questions that you mught have.
+
+<p align="center">
+  <img src="./source/images/About.png" />
+</p>
+<br>
+<p align="center">
+  <img src="./source/images/GeniusBar.png" />
+</p>
