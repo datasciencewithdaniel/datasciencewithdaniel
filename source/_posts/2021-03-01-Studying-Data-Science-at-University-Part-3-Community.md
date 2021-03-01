@@ -1,11 +1,12 @@
 ---
 title: 'Studying Data Science at University Part 3: Community'
+author: Daniel Chegwidden
 categories:
   - [general]
   - [education]
   - [series]
-author: Daniel Chegwidden
 number: 19
+date: 2021-03-01 13:02:58
 tags:
 ---
 
