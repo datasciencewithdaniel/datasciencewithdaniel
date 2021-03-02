@@ -10,7 +10,7 @@ number: 21
 tags:
 ---
 
-
+![](/images/Post_Auto.png)
 
 [Part 1](https://www.datasciencewithdaniel.com.au/2021/01/10/Building-DSWD-Part-1-Gitting-Started/) [Part 2](https://datasciencewithdaniel.com.au/2021/02/08/Building-DSWD-Part-2-Cloud-Native/)
 This is the third post in the series exploring the creation of the *Data Science with Daniel* site.
