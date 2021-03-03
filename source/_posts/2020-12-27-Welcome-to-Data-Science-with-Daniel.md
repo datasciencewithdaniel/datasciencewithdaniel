@@ -22,4 +22,6 @@ For Academics; We promote studying Data Science to bring new people into the fie
 
 If you want to be part of our community, click on the **Community** tab to join the Slack and connect with fellow Data Scientists. If you have something to say, you can write and contribute posts through our [GitHub](https://github.com/datasciencewithdaniel/datasciencewithdaniel), or if you are happy reading the stories on this site, then that is alright too. We hope that you learn something that helps you succeed in your future. Check out other other posts [here](/categories/general/).
 
+We are running a Genius Bar during semester on campus and on Zoom, click on the **Genius Bar** tab to see the details of the meeting. If you have any questions or want to meet fellow Data Science students, this is the place to go.
+
 I look forward to seeing you online.
