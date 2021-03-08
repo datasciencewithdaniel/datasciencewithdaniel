@@ -1,11 +1,12 @@
 ---
 title: Making the most of your summer; from start-ups to city council
+author: Ly Vuong
 categories:
   - [general]
   - [projects]
   - [careers]
-author: Ly Vuong
 number: 20
+date: 2021-03-08 08:32:22
 tags:
 ---
 
