@@ -1,2 +1,0 @@
-Daniel Chegwidden
-Di Yao
