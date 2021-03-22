@@ -1,9 +1,10 @@
 ---
 title: How Statistics can be Abused
+author: Weichean Liew
 categories:
   - [general]
   - [education]
-author: Weichean Liew
+date: 2021-03-22 08:54:17
 number:
 tags:
 ---
