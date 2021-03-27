@@ -6,11 +6,11 @@ categories:
   - [education]
   - [series]
 author: Camilo Pestana
-number:
+number: 24
 tags:
 ---
 
-
+![](/images/Post_Research.png)
 
 Adversarial attacks in Computer Vision are attempts to mislead the model into misclassifying what it is looking at. What may appear to be a simple banana to you and me, the model may think is a toaster. This is a threat that raises numerous concerns when these models are put into production and are interfacing with our world, and making decision that could impact numerous lives. The heart of this problem is a simple one, how do we improve the accuracy of our models and ensure that they are not so easily confused at what they are looking at.
 
