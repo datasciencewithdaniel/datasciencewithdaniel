@@ -1,7 +1,7 @@
 Data Science with Daniel is a community, and anyone from that community can contribute and add value. To do this, this repo has been set up to allow members to submit posts and have them go live on the site. The following instructions take you through how to do this and the process of adding content.
 
 ## Installations
-We are using Hexo to generate the content which is available through [node.js](https://nodejs.org/en/) which needs to be installed and then the following commands run to install Hexo.
+We are using Hexo to generate the content which is available through [node.js](https://nodejs.org/en/) which needs to be installed and then the following commands run to install Hexo. This is only required if you are using the node backend, as you can write posts without this installed to contribute to the site.
 
 ```
 $ sudo npm install npm@latest -g
@@ -52,7 +52,7 @@ $ git checkout development
 $ git checkout -b my_branch
 ```
 
-Now you can make all the changes you want. If you are writing a new post, the following creates your post, where you change ```my_post``` to the title of your post.
+Now you can make all the changes you want. If you are writing a new post, the following creates your post, where you change ```my_post``` to the title of your post. Alternatively, make a copy in the ```_drafts``` folder of the ```draft.md``` file (located in the ```scaffolds``` folder) and use this as the template for your new post.
 
 ```
 $ hexo new "my_post"
@@ -64,16 +64,14 @@ In this case, your post will be created as a markdown file. Simply open the file
 $ hexo server --draft
 ```
 
-Go to the local host link that comes up and you can see it. Note here, any other draft posts will also show up even though they have not been published to the live site yet.
+Go to the local host link that comes up and you can see it. Note here, any other draft posts will also show up even though they have not been published to the live site yet. This is only possible if you are using the node backend.
 
 Once you have completed all of the changes, you need to tell git which changes you want to push back to the remote repo. The following adds all changes you made, however you can substitute the dot for the file name of what you want to send back if you don't want to include everything.
 
 ```
 $ git add .
-$ git commit -a
+$ git commit -m "<enter commit message here>"
 ```
-
-In the commit step, you will open a vim document. To make changes, hit ```i``` as that will put you in insert mode. Write a brief sumamry of your changes on the top line and then hit ```ESC``` followed by ```:wq!``` which save your changes.
 
 ## Push to remote
 The next step is pushing these changes to your own repo on your account and then raising a pull request to have those changes pulled from your account, to the DSWD account's development branch.
@@ -117,7 +115,8 @@ Complete the following steps the bring the ```development``` and ```master``` br
 $ git checkout master
 $ git pull origin master
 $ git checkout development
-$ git pull origin master
+$ git merge master
 $ git push origin development
+$ git checkout my-dev-branch
+$ git merge development
 ```
-
