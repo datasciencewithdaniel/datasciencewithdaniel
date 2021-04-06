@@ -1,12 +1,13 @@
 ---
 title: From Attacking to Advising; Getting Help from Adversaries in Computer Vision
+author: Camilo Pestana
 categories:
   - [general]
   - [projects]
   - [education]
   - [series]
-author: Camilo Pestana
 number: 24
+date: 2021-04-06 14:01:12
 tags:
 ---
 
