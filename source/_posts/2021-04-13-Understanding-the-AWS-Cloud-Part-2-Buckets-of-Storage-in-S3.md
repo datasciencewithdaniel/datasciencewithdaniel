@@ -1,11 +1,12 @@
 ---
 title: 'Understanding the AWS Cloud Part 2: Buckets of Storage in S3'
+author: Daniel Chegwidden
 categories:
   - [general]
   - [resources]
   - [cloud]
   - [series]
-author: Daniel Chegwidden
+date: 2021-04-13 14:01:54
 number:
 tags:
 ---
@@ -21,6 +22,6 @@ S3 has a useful feature where you can specify if you want to make the contents o
 
 Another benefit of storing your data on S3 is that the service is linked to all the other AWS services. So sending data from these services such as log files to S3, as well as utilising data in S3 for analytics and machine learning is as simple as pointing a service at the bucket. Cloud storage continues to get cheaper as the underlying hardware gets better, meaning that if you are running a state-of-the-art machine learning model in the AWS [SageMaker](https://aws.amazon.com/sagemaker/) service, then having the large amounts of data required store in S3 one of the best solutions.
 
-S3 comes with a raft of useful features, and one the the *Data Science with Daniel* site uses is versioning. This allows us to keep track of updates to different files and see what has changed over time. Another useful feature is its lifecycle management, allowing old or outdated files to either be deleted, or transfered to even cheaper storage such as [Glacier](https://aws.amazon.com/glacier/), which is often used for archiving.
+S3 comes with a raft of useful features, and one that the *Data Science with Daniel* site uses is versioning. This allows us to keep track of updates to different files and see what has changed over time. Another useful feature is its lifecycle management, allowing old or outdated files to either be deleted, or transfered to even cheaper storage such as [Glacier](https://aws.amazon.com/glacier/), which is often used for archiving.
 
 The S3 service is versatile in what you can do with your files, and is definitely a service to be familiar with if you are doing any work in the cloud. Our next post in this series is going to look at [Lambda](https://aws.amazon.com/lambda/), and how its serverless architecture helps bring all of your other services together.
