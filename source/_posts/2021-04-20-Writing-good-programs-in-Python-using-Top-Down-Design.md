@@ -1,11 +1,12 @@
 ---
 title: Writing good programs in Python using Top-Down Design
+author: Daniel Chegwidden
 categories:
   - [general]
   - [coding, python]
   - [education]
-author: Daniel Chegwidden
 number: 26
+date: 2021-04-20 12:43:07
 tags:
 ---
 
@@ -31,6 +32,6 @@ def main(filename):
 main("our_file.csv")
 ```
 
-Now we have a working Python program that will eventually open our file. We continue to do this development, writing function definitions that walk through what the complete program will do. This allows us to map out the logic and ensure that we can go from the beginning to the end and solve the problem. All that is left once our program has all of these function definitions is to write the content of each function, and as we have broken each down to a very simple task, this should be easy enough to do, and there is lots of help online with this side of things (because everyone has opened a file before).
+Now we have a working Python program that will eventually open our file. We continue to do this development, writing function definitions that walk through what the complete program will do. This allows us to map out the logic and ensure that we can go from the beginning to the end and solve the problem. All that is left once our program has all of these function definitions is to write the content of each function. Because we have broken each down to a very simple task, this should be easy enough to do, and there is lots of help online with this side of things (because everyone has opened a file before).
 
 Of course, we may add new functions, or modify our planned functions as we develop our program, but no one said we would get it right the first time, all Top-Down Design gives us is a framework to start writing a good program.
