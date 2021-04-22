@@ -27,7 +27,7 @@ With this function defined (using ```pass``` to ensure our program still runs), 
 
 ```python
 def main(filename):
-	data = open_file(filename)
+    data = open_file(filename)
 
 main("our_file.csv")
 ```
