@@ -13,7 +13,7 @@ tags:
 
 ![](/images/Post_s3.png)
 
-[Part 1]()
+[Part 1](https://datasciencewithdaniel.com.au/2021/03/29/Understanding-the-AWS-Cloud-Part-1-Virtual-Computing-on-EC2/)
 This is the second post in the series exploring cloud services offered by Amazon Web Services ([AWS](https://aws.amazon.com)).
 
 With our compute requirement satisfied with the [Elastic Compute Cloud]((https://aws.amazon.com/ec2)), the next major consideration is cloud storage. Amazon makes this easy with its Simple Storage Solution ([S3](https://aws.amazon.com/s3/)), which stores objects (your files or data) in buckets. These buckets are versatile in that they can store almost any file you have, as well as reliable enough to ensure that your data is always available.
