@@ -10,7 +10,7 @@ date: 2021-05-04 14:19:34
 tags:
 ---
 
-![](/images/Post_OneLine.png)
+![](/images/Post_Line.png)
 
 [Python](https://www.python.org) is a powerful language, you can get it to do a lot of things. It is this versatility and adaptability that make it one of the most used programming languages in the world. As developers get more confident writing Python, they get lazier, as all developers do, and try to do the most work with the least amount of code. One of the foremost examples of this is the list comprehensions, which is essentially a ```for``` loop written on just one line. After all, why write this:
 
