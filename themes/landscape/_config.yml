@@ -5,10 +5,11 @@ menu:
   Blog: /categories/general/
   # Archives: /archives/
   Connect: https://linkedin.com/company/data-science-with-daniel/
-  Community: https://join.slack.com/t/datasciencewithdaniel/shared_invite/zt-m3r3s58k-iybUYA4ajhqNPikvmjCfiw
+  Community: https://discord.gg/D3KfXbdZgk
+  Stream: https://www.twitch.tv/datasciencewithdaniel
   Contact: mailto:contact@datasciencewithdaniel.com.au
-  Genius Bar: /images/GeniusBar.png
-  Mega Genius Bar: https://uwa.zoom.us/j/85821706205?pwd=RDVQc3lqYVpHM0VkRTQreUhEM2xOZz09
+  # Genius Bar: /images/GeniusBar.png
+  # Mega Genius Bar: https://uwa.zoom.us/j/85821706205?pwd=RDVQc3lqYVpHM0VkRTQreUhEM2xOZz09
 
 # rss: /atom.xml
 # banner: images/banner.jpg
