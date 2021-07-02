@@ -5,17 +5,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Navigation from '../components/navigation';
-import Jumbotron from '../components/jumbotron';
+import NavPlus from '../components/navplus';
 import Footer from '../components/footer';
 
 import styles from '../styles/Home.module.css'
  
 const Home = () => {
   	return (<>
-		<Navigation></Navigation>
-
-		<Jumbotron></Jumbotron>
+		<NavPlus></NavPlus>
 
 		<Container>
 			<Row>

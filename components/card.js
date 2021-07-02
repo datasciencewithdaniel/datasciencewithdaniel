@@ -1,0 +1,26 @@
+import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
+import { Container}  from 'react-bootstrap';
+import { CardColumns } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+
+const SingleCard = (props) => {
+
+    return (<>
+      <Card>
+        <Card.Img variant="top" src={props.imageLink} />
+        <Card.Body>
+            <Card.Title>{props.cardTitle}</Card.Title>
+            <Card.Text>
+                {props.cardText}
+            </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+            <small className="text-muted"><Card.Link href={props.linkLink} target="_blank">{props.linkText}</Card.Link></small>
+        </Card.Footer>
+    </Card>
+  </>)
+}
+
+export default SingleCard
+
+

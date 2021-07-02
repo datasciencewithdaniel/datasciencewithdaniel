@@ -10,11 +10,11 @@ const Footer = () => {
 
   	return (<>
 		<Container fluid className={CompStyles.footerText}>
+			<Container>
 			<Row>
-				<p>
-					Latest build: {buildTimestamp}
-				</p>
+				Latest build: {buildTimestamp}
 			</Row>
+			</Container>
 		</Container>
 	</>)
 }
