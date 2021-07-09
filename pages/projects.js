@@ -21,17 +21,17 @@ const Projects = () => {
 			<CardColumns>
 				<SingleCard
 					cardTitle="datasciencewithdaniel.com.au"
-					cardText="This is the new card text"
+					cardText="The Data Science with Daniel website built using React and Next.js"
 					imageLink='https://datasciencewithdaniel.com.au/images/MegaGeniusBar.png'
-					linkLink="#"
-					linkText="???"
+					linkLink="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
+					linkText="Check out the project on GitHub"
 				></SingleCard>
 				<SingleCard
 					cardTitle="Beluga"
-					cardText="This is the new card text"
+					cardText="A Python library to help make analysing machine learning metrics easier"
 					imageLink='https://datasciencewithdaniel.com.au/images/MegaGeniusBar.png'
-					linkLink="#"
-					linkText="???"
+					linkLink="https://github.com/datasciencewithdaniel/beluga"
+					linkText="Check out the project on GitHub"
 				></SingleCard>
 			</CardColumns>
 

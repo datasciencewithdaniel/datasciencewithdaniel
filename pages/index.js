@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import NavPlus from '../components/navplus';
+import PageHeader from '../components/pageheader';
 import Footer from '../components/footer';
 
 import styles from '../styles/Home.module.css'
@@ -14,31 +15,13 @@ const Home = () => {
   	return (<>
 		<NavPlus></NavPlus>
 
-		<Container>
-			<Row>
-				<Col>
-					<h1 className={styles.mainTitle}>
-						Data Science with Daniel
-					</h1>
-					
-				</Col>
-			</Row>
-		</Container>
+		<PageHeader pageTitle="Data Science with Daniel">
+        </PageHeader>
+
 
 		<Footer></Footer>
 	</>)
 }
-
-// export const getStaticProps = () => {
-// 	const timeElapsed = Date.now();
-// 	const today = new Date(timeElapsed);
-
-// 	return {
-// 	  	props: {
-// 			buildTimestamp: today.toDateString()
-// 	  	}
-// 	}
-// }
  
 export default Home;
 
