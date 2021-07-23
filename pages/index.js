@@ -1,12 +1,8 @@
-import Image from 'next/image'
-
 import { Container } from 'react-bootstrap';
 
 import NavPlus from '../components/navplus';
 import PageHeader from '../components/pageheader';
 
-import GeniusBar from '../assets/GeniusBar.png'
- 
 const Home = () => {
 	
   	return (<>
@@ -16,9 +12,11 @@ const Home = () => {
         </PageHeader>
 
 		<Container>
-			<Image 
-				src={GeniusBar}
+			<img 
+				src="/images/GeniusBar.png"
 				alt="Genius Bar" 
+				width="100%"
+				height="100%"
 				/>
 		</Container>
 

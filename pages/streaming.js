@@ -22,7 +22,7 @@ const Streaming = ({ streams }) => {
 				<SingleCard
 					cardTitle="Stream Recording"
 					cardText={stream.filename.slice(0, 10).concat(": ").concat(stream.filename.slice(11))}
-					imageLink='https://datasciencewithdaniel.com.au/images/TwitchAbout_Recording.png'
+					imageLink='/images/TwitchAbout_Recording.png'
 					linkLink={"localhost:3000/assets/vod/".concat(stream.filename)} // FIX LINK TO S3
 					linkText="Click for video download"
 				></SingleCard>
@@ -36,9 +36,8 @@ const Streaming = ({ streams }) => {
 }
 
 
-
 export async function getStaticProps(context) {
-    const streamsDirectory = path.join(process.cwd(), 'assets/vod')
+    const streamsDirectory = path.join(process.cwd(), 'vod')
     const filenames = await fs.readdir(streamsDirectory)
 
     const streams = filenames.map(async (filename) => {

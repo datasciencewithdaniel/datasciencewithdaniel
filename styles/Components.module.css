@@ -33,7 +33,7 @@
 
 /* NavPlus Background */
 .NavPlusBackground {
-    background-image: url(../assets/BlackAndWhiteBackground.png);
+    background-image: url(/BlackAndWhiteBackground.png);
     background-size: cover
 }
 
