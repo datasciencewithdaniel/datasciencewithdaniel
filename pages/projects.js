@@ -18,7 +18,7 @@ const Projects = () => {
 				<SingleCard
 					cardTitle="datasciencewithdaniel.com.au"
 					cardText="The Data Science with Daniel website built using React and Next.js"
-					imageLink='/TwitchAbout_Website.png'
+					imageLink='/images/TwitchAbout_Website.png'
 					linkLink="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
 					linkText="Check out the project on GitHub"
 				></SingleCard>
