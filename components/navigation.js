@@ -1,12 +1,13 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import WhiteLogo from '../assets/White_Logo.PNG'
 
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Nav, Navbar } from 'react-bootstrap';
+
 import CompStyles from '../styles/Components.module.css'
+
+import WhiteLogo from '../assets/White_Logo2.png'
  
 const Navigation = () => {
+
   	return (<>
         <Navbar expand="lg" variant="dark" className={CompStyles.NavBarBackground}>
             <Navbar.Brand href="/">
@@ -17,12 +18,12 @@ const Navigation = () => {
                     height={30}
                     className="d-inline-block align-top"
                 />{' '}
-                Data Science with Daniel
+                {/* Data Science with Daniel */}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    {/* <Nav.Link href="/">Home</Nav.Link> */}
+                    <Nav.Link href="/"><b>Data Science with Daniel</b></Nav.Link> {/* MAY CHANGE LOOK */}
                     <Nav.Link href="/about">About</Nav.Link>
                     <Nav.Link href="/streaming">Streaming</Nav.Link>
                     <Nav.Link href="/projects">Projects</Nav.Link>

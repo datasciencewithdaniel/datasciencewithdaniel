@@ -1,8 +1,6 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import CompStyles from '../styles/Components.module.css'
- 
+import { Container } from 'react-bootstrap';
 
+import CompStyles from '../styles/Components.module.css'
 
 const PageHeader = (props) => {
 

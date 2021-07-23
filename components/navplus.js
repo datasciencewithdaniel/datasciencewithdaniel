@@ -1,5 +1,5 @@
 
-import Container from 'react-bootstrap/Container';
+import { Container } from 'react-bootstrap';
 
 import Navigation from '../components/navigation';
 import Jumbotron from '../components/jumbotron';

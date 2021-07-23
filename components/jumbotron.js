@@ -1,10 +1,13 @@
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Image from 'next/image'
-import WhiteLogo from '../assets/White_Logo.PNG'
+
+import { Jumbotron } from 'react-bootstrap';
 
 import CompStyles from '../styles/Components.module.css'
+
+import WhiteLogo from '../assets/White_Logo2.png'
  
 const Jumbo = () => {
+    
   	return (<>
 		<Jumbotron className={CompStyles.jumboText}>
             <h1>Data Science with Daniel</h1>

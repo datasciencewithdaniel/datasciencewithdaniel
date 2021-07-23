@@ -33,18 +33,13 @@
 
 /* NavPlus Background */
 .NavPlusBackground {
-    background-image: url(../assets/TwitchBanner.png);
+    background-image: url(../assets/BlackAndWhiteBackground.png);
     background-size: cover
 }
 
 .NavBarBackground {
     background-color: transparent;
 }
-
-/* .NavPlusLogo {
-    display: flex;
-    justify-content: center;
-} */
 
 .mainTitle {
     text-align: center;

@@ -1,13 +1,14 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import React from 'react';
+
+import { Container, Row } from 'react-bootstrap';
+
 import CompStyles from '../styles/Components.module.css'
  
 const timeElapsed = Date.now();
 const today = new Date(timeElapsed);
 const buildTimestamp = today.toDateString()
 
-const Footer = () => {
+export const Footer = () => {
 
   	return (<>
 		<Container fluid className={CompStyles.footerText}>
@@ -19,5 +20,3 @@ const Footer = () => {
 		</Container>
 	</>)
 }
-
-export default Footer

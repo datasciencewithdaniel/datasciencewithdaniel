@@ -1,15 +1,11 @@
-import { Container}  from 'react-bootstrap';
-import { CardColumns } from 'react-bootstrap';
-import { Card } from 'react-bootstrap';
+import { Container, CardColumns}  from 'react-bootstrap';
 
 import NavPlus from '../components/navplus';
 import PageHeader from '../components/pageheader';
-import Footer from '../components/footer';
 import SingleCard from '../components/card'
 
-import styles from '../styles/Home.module.css'
-
 const Projects = () => {
+
     return (<>
 		<NavPlus></NavPlus>
 
@@ -22,14 +18,14 @@ const Projects = () => {
 				<SingleCard
 					cardTitle="datasciencewithdaniel.com.au"
 					cardText="The Data Science with Daniel website built using React and Next.js"
-					imageLink='https://datasciencewithdaniel.com.au/images/MegaGeniusBar.png'
+					imageLink='https://datasciencewithdaniel.com.au/images/TwitchAbout_Website.png'
 					linkLink="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
 					linkText="Check out the project on GitHub"
 				></SingleCard>
 				<SingleCard
 					cardTitle="Beluga"
 					cardText="A Python library to help make analysing machine learning metrics easier"
-					imageLink='https://datasciencewithdaniel.com.au/images/MegaGeniusBar.png'
+					imageLink='https://datasciencewithdaniel.com.au/images/TwitchAbout_Beluga.png'
 					linkLink="https://github.com/datasciencewithdaniel/beluga"
 					linkText="Check out the project on GitHub"
 				></SingleCard>
@@ -37,7 +33,6 @@ const Projects = () => {
 
 		</Container>
 
-        <Footer></Footer>
     </>)
 }
   

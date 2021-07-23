@@ -1,6 +1,3 @@
-import { loadGetInitialProps } from 'next/dist/next-server/lib/utils';
-import { Container}  from 'react-bootstrap';
-import { CardColumns } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 
 const SingleCard = (props) => {
@@ -22,5 +19,3 @@ const SingleCard = (props) => {
 }
 
 export default SingleCard
-
-
