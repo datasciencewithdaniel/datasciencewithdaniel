@@ -1,4 +1,4 @@
-import { Container, CardColumns}  from 'react-bootstrap';
+import { Container, CardColumns }  from 'react-bootstrap';
 
 import NavPlus from '../components/navplus';
 import PageHeader from '../components/pageheader';

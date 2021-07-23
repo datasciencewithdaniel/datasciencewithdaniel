@@ -13,7 +13,7 @@ const Home = () => {
 
 		<Container>
 			<img 
-				src="/images/GeniusBar.png"
+				src="/images/GeniusBarS2.png"
 				alt="Genius Bar" 
 				width="100%"
 				height="100%"
