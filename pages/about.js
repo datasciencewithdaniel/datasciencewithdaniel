@@ -34,14 +34,14 @@ const About = () => {
 					cardTitle="About"
 					cardText="Learn about the Data Science with Daniel community"
 					imageLink='/images/TwitchAbout_About.png'
-					linkLink="/about"
+					linkLink="/about.html"
 					linkText="Click to enter infinite loop"
 				></SingleCard>
 				<SingleCard
 					cardTitle="Projects"
 					cardText="Help develop open source projects for any skill level"
 					imageLink='images/TwitchAbout_Projects.png'
-					linkLink="/projects"
+					linkLink="/projects.html"
 					linkText="Find our projects on GitHub"
 				></SingleCard>
 				<SingleCard
@@ -55,14 +55,14 @@ const About = () => {
 					cardTitle="Contribute"
 					cardText="Be part of helping the community grow and offer more events"
 					imageLink='/images/TwitchAbout_Contribute.png'
-					linkLink="#"
+					linkLink="https://streamelements.com/datasciencewithdaniel/tip"
 					linkText="Support the community"
 				></SingleCard>
 				<SingleCard
 					cardTitle="Streaming"
 					cardText="Watch us on Twitch and see our past streams"
 					imageLink='/images/TwitchAbout_Streaming.png'
-					linkLink="/streaming"
+					linkLink="/streaming.html"
 					linkText="Check out our latest streams"
 				></SingleCard>
 				<SingleCard

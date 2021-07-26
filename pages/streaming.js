@@ -23,7 +23,7 @@ const Streaming = ({ streams }) => {
 					cardTitle="Stream Recording"
 					cardText={stream.filename.slice(0, 10).concat(": ").concat(stream.filename.slice(11))}
 					imageLink='/images/TwitchAbout_Recording.png'
-					linkLink={"localhost:3000/assets/vod/".concat(stream.filename)} // FIX LINK TO S3
+					linkLink={"/vod/".concat(stream.filename)}
 					linkText="Click for video download"
 				></SingleCard>
                 
