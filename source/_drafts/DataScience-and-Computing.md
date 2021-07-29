@@ -11,4 +11,4 @@ A student of computer science often comes across fancy words like _time complexi
 
 ## Time and Space complexity for the uninitiated
 
-Time and space complexity represented by the Big O notation makes your next door cs major sound smarter.
+Time and space complexity represented by the Big O notation makes your next door cs major sound smarter. Time Complexity is a way of expressing **how fast** a procedure is and uses the O(n)
