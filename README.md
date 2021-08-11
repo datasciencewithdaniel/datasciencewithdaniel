@@ -12,5 +12,5 @@ npm run build
 
 ## Deploy to S3
 ```bash
-aws s3 sync out s3://datasciencewithdaniel.com.au/
+aws s3 sync out s3://datasciencewithdaniel.com.au/ --profile dswd
 ```
