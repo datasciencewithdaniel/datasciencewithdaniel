@@ -48,7 +48,7 @@ const About = () => {
 					cardTitle="Community"
 					cardText="Join the community on Discord for project updates and notifications"
 					imageLink='/images/TwitchAbout_Community.png'
-					linkLink="https://discord.gg/mCKa7WMPUh"
+					linkLink="https://discord.gg/MWJyHSagg2"
 					linkText="Join us on Discord"
 				></SingleCard>
 				<SingleCard
