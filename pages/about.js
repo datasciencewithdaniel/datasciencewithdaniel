@@ -33,14 +33,14 @@ const About = () => {
 					cardTitle="About"
 					cardText="Learn about the Data Science with Daniel community"
 					imageLink='/images/TwitchAbout_About.png'
-					linkLink="/about"
+					linkLink="/about.html"
 					linkText="Click to enter infinite loop"
 				/>
 				<SingleCard
 					cardTitle="Projects"
 					cardText="Help develop open source projects for any skill level"
 					imageLink='images/TwitchAbout_Projects.png'
-					linkLink="/projects"
+					linkLink="/projects.html"
 					linkText="Find our projects on GitHub"
 				/>
 				<SingleCard
@@ -61,7 +61,7 @@ const About = () => {
 					cardTitle="Streaming"
 					cardText="Watch us on Twitch and see our past streams"
 					imageLink='/images/TwitchAbout_Streaming.png'
-					linkLink="/streaming"
+					linkLink="/streaming.html"
 					linkText="Check out our latest streams"
 				/>
 				<SingleCard

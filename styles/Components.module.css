@@ -44,3 +44,13 @@
 .mainTitle {
     text-align: center;
 }
+
+.postImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* height: auto; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
