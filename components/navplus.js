@@ -9,8 +9,8 @@ import CompStyles from '../styles/Components.module.css'
 const NavPlus = () => {
     return (<>
         <Container fluid className={CompStyles.NavPlusBackground}>
-            <Navigation></Navigation>
-            <Jumbotron></Jumbotron>
+            <Navigation/>
+            <Jumbotron/>
         </Container>
   </>)
 }

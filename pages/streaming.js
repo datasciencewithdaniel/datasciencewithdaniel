@@ -10,10 +10,9 @@ import SingleCard from '../components/card'
 const Streaming = ({ streams }) => {
 
     return (<>
-		<NavPlus></NavPlus>
+		<NavPlus/>
 
-        <PageHeader pageTitle="Streaming">
-        </PageHeader>
+        <PageHeader pageTitle="Streaming"/>
 
         <Container>
             
@@ -21,12 +20,12 @@ const Streaming = ({ streams }) => {
                 {streams.map((stream) => (
 				<SingleCard
 					cardTitle="Stream Recording"
-					cardText={stream.filename.slice(0, 10).concat(": ").concat(stream.filename.slice(11))}
+					cardText={stream.filename.slice(0, 10).concat(": ").concat(stream.filename.slice(11, -4))}
 					imageLink='/images/TwitchAbout_Recording.png'
 					linkLink={"/vod/".concat(stream.filename)}
 					linkText="Click for video download"
-				></SingleCard>
-                
+                    download={true}
+				/>
                 ))}
 
             </CardColumns>

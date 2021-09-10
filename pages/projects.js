@@ -21,14 +21,21 @@ const Projects = () => {
 					imageLink='/images/TwitchAbout_Website.png'
 					linkLink="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
 					linkText="Check out the project on GitHub"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Beluga"
 					cardText="A Python library to help make analysing machine learning metrics easier"
 					imageLink='/images/TwitchAbout_Beluga.png'
 					linkLink="https://github.com/datasciencewithdaniel/beluga"
 					linkText="Check out the project on GitHub"
-				></SingleCard>
+				/>
+				<SingleCard
+					cardTitle="Penguin"
+					cardText="Your friendly Discord Bot"
+					imageLink='/images/TwitchAbout_Penguin.png'
+					linkLink="https://github.com/datasciencewithdaniel/penguin"
+					linkText="Check out the project on GitHub"
+				/>
 			</CardColumns>
 
 		</Container>

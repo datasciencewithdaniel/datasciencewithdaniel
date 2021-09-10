@@ -9,8 +9,8 @@ const Jumbo = () => {
             <h1>Data Science with Daniel</h1>
             <h4>Build. Share. Learn.</h4>
             <img 
-                src="images/White_Logo2.png"
-                alt="White Logo" 
+                src="/images/White_Logo2.png"
+                alt="Logo" 
                 width="100"
                 height="100"
             />

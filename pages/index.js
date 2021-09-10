@@ -6,10 +6,9 @@ import PageHeader from '../components/pageheader';
 const Home = () => {
 	
   	return (<>
-		<NavPlus></NavPlus>
+		<NavPlus/>
 
-		<PageHeader pageTitle="Data Science with Daniel">
-        </PageHeader>
+		<PageHeader pageTitle="Data Science with Daniel"/>
 
 		<Container>
 			<img 

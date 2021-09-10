@@ -11,10 +11,9 @@ import styles from '../styles/Home.module.css'
 const About = () => {
 
     return (<>
-		<NavPlus></NavPlus>
+		<NavPlus/>
 
-        <PageHeader pageTitle="About">
-        </PageHeader>
+        <PageHeader pageTitle="About"/>
 
 		<Container>
 			<Row>
@@ -34,44 +33,44 @@ const About = () => {
 					cardTitle="About"
 					cardText="Learn about the Data Science with Daniel community"
 					imageLink='/images/TwitchAbout_About.png'
-					linkLink="/about.html"
+					linkLink="/about"
 					linkText="Click to enter infinite loop"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Projects"
 					cardText="Help develop open source projects for any skill level"
 					imageLink='images/TwitchAbout_Projects.png'
-					linkLink="/projects.html"
+					linkLink="/projects"
 					linkText="Find our projects on GitHub"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Community"
 					cardText="Join the community on Discord for project updates and notifications"
 					imageLink='/images/TwitchAbout_Community.png'
 					linkLink="https://discord.gg/MWJyHSagg2"
 					linkText="Join us on Discord"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Contribute"
 					cardText="Be part of helping the community grow and offer more events"
 					imageLink='/images/TwitchAbout_Contribute.png'
 					linkLink="https://streamelements.com/datasciencewithdaniel/tip"
 					linkText="Support the community"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Streaming"
 					cardText="Watch us on Twitch and see our past streams"
 					imageLink='/images/TwitchAbout_Streaming.png'
-					linkLink="/streaming.html"
+					linkLink="/streaming"
 					linkText="Check out our latest streams"
-				></SingleCard>
+				/>
 				<SingleCard
 					cardTitle="Contact"
 					cardText="Get in touch if you have something specific to discuss"
 					imageLink='/images/TwitchAbout_Contact.png'
 					linkLink="mailto:contact@datasciencewithdaniel.com.au"
 					linkText="Get in touch"
-				></SingleCard>
+				/>
 			</CardColumns>
 
 		</Container>
