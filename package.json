@@ -19,6 +19,7 @@
     "graphql-tag": "^2.12.4",
     "gray-matter": "^4.0.3",
     "next": "^11.1.2",
+    "npm": "^7.24.0",
     "npm-check-updates": "^11.8.5",
     "package.json": "^2.0.1",
     "react": "^17.0.2",
