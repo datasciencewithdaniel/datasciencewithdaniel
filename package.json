@@ -15,6 +15,7 @@
     "apollo-link-http": "^1.5.17",
     "bootstrap": "^5.1.1",
     "chokidar": "^3.5.1",
+    "datasciencewithdaniel": "github:datasciencewithdaniel/datasciencewithdaniel",
     "date-fns": "^2.23.0",
     "graphql": "^15.5.1",
     "graphql-tag": "^2.12.4",
