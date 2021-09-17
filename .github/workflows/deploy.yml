@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
 
       - name: Install Node.js
         run: |
