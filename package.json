@@ -1,4 +1,7 @@
 {
+  "name": "datasciencewithdaniel",
+  "version": "0.2.0",
+  "lockfileVersion": 2,
   "private": true,
   "scripts": {
     "build": "next build && next export",
