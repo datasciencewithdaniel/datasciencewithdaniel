@@ -28,7 +28,8 @@ const About = () => {
 
 		<Container>
 
-			<CardColumns>
+			<Row>
+				<Col>
 				<SingleCard
 					cardTitle="About"
 					cardText="Learn about the Data Science with Daniel community"
@@ -36,6 +37,8 @@ const About = () => {
 					linkLink="/about.html"
 					linkText="Click to enter infinite loop"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Projects"
 					cardText="Help develop open source projects for any skill level"
@@ -43,6 +46,8 @@ const About = () => {
 					linkLink="/projects.html"
 					linkText="Find our projects on GitHub"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Community"
 					cardText="Join the community on Discord for project updates and notifications"
@@ -50,6 +55,10 @@ const About = () => {
 					linkLink="https://discord.gg/MWJyHSagg2"
 					linkText="Join us on Discord"
 				/>
+				</Col>
+			</Row>
+			<Row>
+				<Col>
 				<SingleCard
 					cardTitle="Contribute"
 					cardText="Be part of helping the community grow and offer more events"
@@ -57,6 +66,8 @@ const About = () => {
 					linkLink="https://streamelements.com/datasciencewithdaniel/tip"
 					linkText="Support the community"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Streaming"
 					cardText="Watch us on Twitch and see our past streams"
@@ -64,6 +75,8 @@ const About = () => {
 					linkLink="/streaming.html"
 					linkText="Check out our latest streams"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Contact"
 					cardText="Get in touch if you have something specific to discuss"
@@ -71,7 +84,8 @@ const About = () => {
 					linkLink="mailto:contact@datasciencewithdaniel.com.au"
 					linkText="Get in touch"
 				/>
-			</CardColumns>
+				</Col>
+			</Row>
 
 		</Container>
 

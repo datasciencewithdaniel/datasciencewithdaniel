@@ -2,7 +2,7 @@ import { Card } from 'react-bootstrap';
 
 const SingleCard = (props) => {
 	return (<>
-		<Card>
+		<Card style={{ width: '18rem' }}>
 			<Card.Img variant="top" src={props.imageLink} />
 			<Card.Body>
 				<Card.Title>{props.cardTitle}</Card.Title>

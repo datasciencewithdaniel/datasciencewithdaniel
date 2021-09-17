@@ -1,4 +1,4 @@
-import { Container, CardColumns }  from 'react-bootstrap';
+import { Container, Row, Col }  from 'react-bootstrap';
 
 import NavPlus from '../components/navplus';
 import PageHeader from '../components/pageheader';
@@ -14,7 +14,8 @@ const Projects = () => {
 
 		<Container>
 
-			<CardColumns>
+			<Row>
+				<Col>
 				<SingleCard
 					cardTitle="datasciencewithdaniel.com.au"
 					cardText="The Data Science with Daniel website built using React and Next.js"
@@ -22,6 +23,8 @@ const Projects = () => {
 					linkLink="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
 					linkText="Check out the project on GitHub"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Beluga"
 					cardText="A Python library to help make analysing machine learning metrics easier"
@@ -29,6 +32,8 @@ const Projects = () => {
 					linkLink="https://github.com/datasciencewithdaniel/beluga"
 					linkText="Check out the project on GitHub"
 				/>
+				</Col>
+				<Col>
 				<SingleCard
 					cardTitle="Penguin"
 					cardText="Your friendly Discord Bot"
@@ -36,7 +41,8 @@ const Projects = () => {
 					linkLink="https://github.com/datasciencewithdaniel/penguin"
 					linkText="Check out the project on GitHub"
 				/>
-			</CardColumns>
+				</Col>
+			</Row>
 
 		</Container>
 
