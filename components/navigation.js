@@ -23,6 +23,7 @@ const Navigation = () => {
                     <Nav.Link href="/projects.html">Projects</Nav.Link>
                     <Nav.Link href="https://discord.gg/D3KfXbdZgk">Community</Nav.Link>
                     <Nav.Link href="/blog.html">Blog</Nav.Link>
+                    <Nav.Link href="/tutoring.html">Tutoring</Nav.Link>
                     <Nav.Link href="mailto:contact@datasciencewithdaniel.com.au">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
