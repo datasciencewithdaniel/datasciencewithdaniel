@@ -9,18 +9,19 @@ async function postData(url = '', data = {}) {
     // Default options are marked with *
     const response = await fetch(url, {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
-        mode: 'cors', // no-cors, *cors, same-origin
-        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-        credentials: 'same-origin', // include, *same-origin, omit
+        mode: 'no-cors', // no-cors, *cors, same-origin
+        // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'omit', // include, *same-origin, omit
         headers: {
-            'Content-Type': 'application/json'
-            // 'Content-Type': 'application/x-www-form-urlencoded',
+            // 'Content-Type': 'application/json',
+            'Authorization': 'secretToken',
+            'Content-Type': 'application/x-www-form-urlencoded',
         },
-        redirect: 'follow', // manual, *follow, error
-        referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+        // redirect: 'follow', // manual, *follow, error
+        // referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
         body: JSON.stringify(data) // body data type must match "Content-Type" header
     });
-    return response.json(); // parses JSON response into native JavaScript objects
+    return response;//.json(); // parses JSON response into native JavaScript objects
 }
 
 class Tutoring extends React.Component {
@@ -29,24 +30,24 @@ class Tutoring extends React.Component {
         super(props);
 
         this.state = {
-            Name: '',
-            Email: '',
-            Username: '',
+            Name: ' ',
+            Email: ' ',
+            Username: ' ',
             Tutor: false,
             Tutee: false,
             Python: false,
-            PythonExp: '',
+            PythonExp: ' ',
             SQL: false,
-            SQLExp: '',
+            SQLExp: ' ',
             Java: false,
-            JavaExp: '',
+            JavaExp: ' ',
             JavaScript: false,
-            JavScriptExp: '',
+            JavScriptExp: ' ',
             Bash: false,
-            BashExp: '',
+            BashExp: ' ',
             R: false,
-            RExp: '',
-            Justification: '',
+            RExp: ' ',
+            Justification: ' '
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -73,11 +74,11 @@ class Tutoring extends React.Component {
     }
 
     submitTutorData = (event) => {
-        console.log(this.state)
-        // postData('https://example.com/answer', this.state)
-        //     .then(data => {
-        //         console.log(data); // JSON data parsed by `data.json()` call
-        //     });
+        console.log(JSON.stringify(this.state))
+        postData('https://46mkh28k2e.execute-api.ap-southeast-2.amazonaws.com/PROD/', this.state)
+            .then(data => {
+                console.log(data); // JSON data parsed by `data.json()` call
+            });
         event.preventDefault();
       }
 
