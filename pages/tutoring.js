@@ -47,7 +47,8 @@ class Tutoring extends React.Component {
             BashExp: ' ',
             R: false,
             RExp: ' ',
-            Justification: ' '
+            Justification: ' ',
+            Reason: ' '
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -130,7 +131,7 @@ class Tutoring extends React.Component {
                             <Container>
                                 <i>
                                     <p>Please join the Data Science with Daniel Discord at: [
-                                        <a href="https://www.datasciencewithdaniel.com.au" target="_blank"> 
+                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank"> 
                                             #welcome
                                         </a>
                                         ] to be connected with a Tutor!
@@ -149,9 +150,9 @@ class Tutoring extends React.Component {
                         {this.state.Tutor && 
                             <Container>
                                 <i>
-                                    <p>Please join the Tutoring Channel on Discord at: [
-                                        <a href="https://www.datasciencewithdaniel.com.au" target="_blank"> 
-                                            #tutoring
+                                    <p>Please join the Data Science with Daniel Discord at: [
+                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank"> 
+                                            #welcome
                                         </a>
                                         ] for Tutoring matches!
                                     </p>
@@ -256,6 +257,18 @@ class Tutoring extends React.Component {
                             />
                         </Form.Group>
                     }
+
+                    {this.state.Tutee &&
+                        <Form.Group className="mb-3" controlId="TutorText">
+                            <Form.Label>Please briefly explain why you require tutoring</Form.Label>
+                            <Form.Control
+                                as="textarea" 
+                                rows={3}
+                                name="Reason"
+                                onChange={this.handleChange} 
+                            />
+                        </Form.Group>
+                    }  
 
                     <br/>
 
