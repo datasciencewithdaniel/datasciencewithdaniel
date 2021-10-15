@@ -62,9 +62,9 @@ const Streaming = ({ streamsA, streamsB, streamsC }) => {
 
 export async function getStaticProps(context) {
 
-    let AWS = require('aws-sdk');
-    let credentials = new AWS.SharedIniFileCredentials({profile: 'dswd'});
-    AWS.config.credentials = credentials;
+    // let AWS = require('aws-sdk');
+    // let credentials = new AWS.SharedIniFileCredentials({profile: 'dswd'});
+    // AWS.config.credentials = credentials;
 
     const client = new S3Client();
     const command = new ListObjectsCommand({"Bucket": "datasciencewithdaniel.com.au", "Prefix": "vod/"});
