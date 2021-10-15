@@ -35,7 +35,7 @@ jobs:
 
       - name: Prepare Content
         run: |
-          npm run build
+          sudo npm run build
 
       - name: Deploy
         run: |
