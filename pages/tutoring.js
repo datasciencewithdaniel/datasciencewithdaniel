@@ -43,12 +43,12 @@ class Tutoring extends React.Component {
             JavaExp: ' ',
             JavaScript: false,
             JavScriptExp: ' ',
-            Bash: false,
-            BashExp: ' ',
             R: false,
             RExp: ' ',
             Justification: ' ',
-            Reason: ' '
+            Reason: ' ',
+            TuteePrice: ' ',
+            success: ' '
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -79,6 +79,7 @@ class Tutoring extends React.Component {
         postData('https://46mkh28k2e.execute-api.ap-southeast-2.amazonaws.com/PROD/', this.state)
             .then(data => {
                 console.log(data); // JSON data parsed by `data.json()` call
+                this.setState({['success']: "Request Submitted Successfully"})
             });
         event.preventDefault();
       }
@@ -113,7 +114,7 @@ class Tutoring extends React.Component {
                             onChange={this.handleChange}
                         />
                         <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
+                            We&apos;ll never share your email with anyone else.
                         </Form.Text>
                     </Form.Group>
                             
@@ -131,7 +132,7 @@ class Tutoring extends React.Component {
                             <Container>
                                 <i>
                                     <p>Please join the Data Science with Daniel Discord at: [
-                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank"> 
+                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank" rel="noreferrer"> 
                                             #welcome
                                         </a>
                                         ] to be connected with a Tutor!
@@ -151,7 +152,7 @@ class Tutoring extends React.Component {
                             <Container>
                                 <i>
                                     <p>Please join the Data Science with Daniel Discord at: [
-                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank"> 
+                                        <a href="https://discord.gg/D3KfXbdZgk" target="_blank" rel="noreferrer"> 
                                             #welcome
                                         </a>
                                         ] for Tutoring matches!
@@ -224,17 +225,6 @@ class Tutoring extends React.Component {
                         }
                         <Form.Check 
                             type="checkbox" 
-                            label="Bash" 
-                            name="Bash" 
-                            id="Bash"
-                            checked={this.state.Bash}
-                            onChange={this.handleChange}
-                        />
-                        {this.state.Bash && this.state.Tutor && 
-                            <TutorExperience language="Bash" onChange={this.handleChange}></TutorExperience>
-                        }
-                        <Form.Check 
-                            type="checkbox" 
                             label="R" 
                             name="R" 
                             id="R" 
@@ -259,12 +249,24 @@ class Tutoring extends React.Component {
                     }
 
                     {this.state.Tutee &&
-                        <Form.Group className="mb-3" controlId="TutorText">
+                        <Form.Group className="mb-3" controlId="TuteeText">
                             <Form.Label>Please briefly explain why you require tutoring</Form.Label>
                             <Form.Control
                                 as="textarea" 
                                 rows={3}
                                 name="Reason"
+                                onChange={this.handleChange} 
+                            />
+                        </Form.Group>
+                    }
+
+                    {this.state.Tutee &&
+                        <Form.Group className="mb-3" controlId="TuteePrice">
+                            <Form.Label>Please enter how much you would be willing to spend per hour</Form.Label>
+                            <Form.Control
+                                as="textarea" 
+                                rows={1}
+                                name="TuteePrice"
                                 onChange={this.handleChange} 
                             />
                         </Form.Group>
@@ -277,6 +279,12 @@ class Tutoring extends React.Component {
                     </Button>
 
                 </Form>
+
+                <Container>
+                    <br/>
+                    <p>{this.state.success}</p>
+                    <br/>
+                </Container>
 
             </Row>
         </Container>
