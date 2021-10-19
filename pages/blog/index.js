@@ -1,9 +1,9 @@
-import Container from '../components/blog/container'
-import MoreStories from '../components/blog/more-stories'
-import { getAllPosts } from '../lib/api'
+import Container from '../../components/blog/container'
+import MoreStories from '../../components/blog/more-stories'
+import { getAllPosts } from '../../lib/api'
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
+import NavPlus from '../../components/navplus';
+import PageHeader from '../../components/pageheader';
 
 export default function Index({ allPosts }) {
   return (

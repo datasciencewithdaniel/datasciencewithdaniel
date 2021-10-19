@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Form, Button }  from 'react-bootstrap';
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
-import TutorExperience from '../components/tutorExperience';
+import NavPlus from '../../components/navplus';
+import PageHeader from '../../components/pageheader';
+import TutorExperience from '../../components/tutorExperience';
 
 async function postData(url = '', data = {}) {
     // Default options are marked with *
@@ -30,25 +30,25 @@ class Tutoring extends React.Component {
         super(props);
 
         this.state = {
-            Name: ' ',
-            Email: ' ',
-            Username: ' ',
+            Name: '',
+            Email: '',
+            Username: '',
             Tutor: false,
             Tutee: false,
             Python: false,
-            PythonExp: ' ',
+            PythonExp: '',
             SQL: false,
-            SQLExp: ' ',
+            SQLExp: '',
             Java: false,
-            JavaExp: ' ',
+            JavaExp: '',
             JavaScript: false,
-            JavScriptExp: ' ',
+            JavScriptExp: '',
             R: false,
-            RExp: ' ',
-            Justification: ' ',
-            Reason: ' ',
-            TuteePrice: ' ',
-            success: ' '
+            RExp: '',
+            Justification: '',
+            Reason: '',
+            TuteePrice: '',
+            success: ''
         }
 
         this.handleChange = this.handleChange.bind(this);
@@ -75,13 +75,18 @@ class Tutoring extends React.Component {
     }
 
     submitTutorData = (event) => {
+        event.preventDefault();
         console.log(JSON.stringify(this.state))
+        if(!this.state.Username){
+            this.setState({['success']: "Please enter your Discord username to continue"});
+        } else {
         postData('https://46mkh28k2e.execute-api.ap-southeast-2.amazonaws.com/PROD/', this.state)
             .then(data => {
-                console.log(data); // JSON data parsed by `data.json()` call
-                this.setState({['success']: "Request Submitted Successfully"})
+                console.log(data);
+                this.setState({['success']: "Request Submitted Successfully!"})
             });
-        event.preventDefault();
+        event.currentTarget.reset();
+        }
       }
 
     render() {
