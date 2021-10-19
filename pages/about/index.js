@@ -2,11 +2,11 @@ import React from 'react';
 
 import { Container, Row, Col, CardColumns}  from 'react-bootstrap';
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
-import SingleCard from '../components/card'
+import NavPlus from '../../components/navplus';
+import PageHeader from '../../components/pageheader';
+import SingleCard from '../../components/card'
 
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 const About = () => {
 
@@ -57,6 +57,7 @@ const About = () => {
 				/>
 				</Col>
 			</Row>
+			<br/>
 			<Row>
 				<Col>
 				<SingleCard
@@ -86,6 +87,7 @@ const About = () => {
 				/>
 				</Col>
 			</Row>
+			<br/>
 
 		</Container>
 

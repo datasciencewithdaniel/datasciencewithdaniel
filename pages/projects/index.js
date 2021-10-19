@@ -1,8 +1,8 @@
 import { Container, Row, Col }  from 'react-bootstrap';
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
-import SingleCard from '../components/card'
+import NavPlus from '../../components/navplus';
+import PageHeader from '../../components/pageheader';
+import SingleCard from '../../components/card'
 
 const Projects = () => {
 
