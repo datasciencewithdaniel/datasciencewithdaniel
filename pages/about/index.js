@@ -42,7 +42,7 @@ const About = () => {
 				<SingleCard
 					cardTitle="Projects"
 					cardText="Help develop open source projects for any skill level"
-					imageLink='images/TwitchAbout_Projects.png'
+					imageLink='/images/TwitchAbout_Projects.png'
 					linkLink="/projects.html"
 					linkText="Find our projects on GitHub"
 				/>

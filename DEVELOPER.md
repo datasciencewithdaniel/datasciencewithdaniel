@@ -24,6 +24,8 @@ Any changes made from the local files will be reflected in the Docker server whi
 npm run start
 ```
 
+This server can be stopped with ```Control-C``` and the Docker container can be stopped using ```exit```
+
 ## Contribution Guidelines
 
 1. Please raise a Pull Request into the main branch for testing before being deployed to the live site
