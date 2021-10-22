@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    datasciencewithdaniel:
+        container_name: dswd
+        ports:
+            - '3000:3000'
+        volumes:
+            - '${PWD}:/code'
+        image: datasciencewithdaniel
+        stdin_open: true
+        tty: true
