@@ -74,12 +74,14 @@ class Tutoring extends React.Component {
 
     handleResetChange(event){
         event.currentTarget.reset();
-        this.state.Python = false;
-        this.state.SQL = false;
-        this.state.Java = false;
-        this.state.JavaScript = false;
-        this.state.Tutor = false;
-        this.state.Tutee = false;
+        this.setState({
+            Tutor: false,
+            Tutee: false,
+            Python: false,
+            SQL: false,
+            Java: false,
+            JavaScript: false
+        });
     }
 
     submitTutorData = (event) => {
