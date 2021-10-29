@@ -43,8 +43,6 @@ class Tutoring extends React.Component {
             JavaExp: '',
             JavaScript: false,
             JavScriptExp: '',
-            R: false,
-            RExp: '',
             Justification: '',
             Reason: '',
             TuteePrice: '',
@@ -74,6 +72,16 @@ class Tutoring extends React.Component {
         })
     }
 
+    handleResetChange(event){
+        event.currentTarget.reset();
+        this.state.Python = false;
+        this.state.SQL = false;
+        this.state.Java = false;
+        this.state.JavaScript = false;
+        this.state.Tutor = false;
+        this.state.Tutee = false;
+    }
+
     submitTutorData = (event) => {
         event.preventDefault();
         console.log(JSON.stringify(this.state))
@@ -85,7 +93,7 @@ class Tutoring extends React.Component {
                 console.log(data);
                 this.setState({['success']: "Request Submitted Successfully!"})
             });
-        event.currentTarget.reset();
+        this.handleResetChange(event);
         }
       }
 
@@ -227,17 +235,6 @@ class Tutoring extends React.Component {
                         />
                         {this.state.JavaScript && this.state.Tutor && 
                             <TutorExperience language="JavScript" onChange={this.handleChange}></TutorExperience>
-                        }
-                        <Form.Check 
-                            type="checkbox" 
-                            label="R" 
-                            name="R" 
-                            id="R" 
-                            checked={this.state.R}
-                            onChange={this.handleChange}
-                        />
-                        {this.state.R && this.state.Tutor && 
-                            <TutorExperience language="R" onChange={this.handleChange}></TutorExperience>
                         }
                     </Form.Group>
 
