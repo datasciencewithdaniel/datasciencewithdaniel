@@ -183,7 +183,7 @@ class Tutoring extends React.Component {
                         <Form.Control 
                             type="name" 
                             name="Username"
-                            placeholder="Please enter your Discord Username for matching purposes"
+                            placeholder="Please enter your Discord Username for matching purposes - this can be copied by clicking your name at the bottom-left"
                             onChange={this.handleChange}
                         />
                         <Form.Text className="text-muted">
