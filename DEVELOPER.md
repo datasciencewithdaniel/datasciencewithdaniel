@@ -21,7 +21,7 @@ docker-compose run --rm --service-ports datasciencewithdaniel /bin/bash
 Once inside the container, install the npm packages as this is currently not working through Docker by running:
 
 ```
-npm run package.json
+npm install package.json
 ```
 
 Any changes made from the local files will be reflected in the Docker server which can be started from within the Docker prompt using:
