@@ -1,7 +1,5 @@
 import { Nav, Navbar } from 'react-bootstrap';
 
-import CompStyles from '../styles/components2.module.css'
-
 const Navigation = () => {
 
   	return (<>

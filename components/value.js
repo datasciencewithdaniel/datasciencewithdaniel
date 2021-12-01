@@ -1,7 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
-import CompStyles from '../styles/components2.module.css'
-
 const Value = (props) => {
 
   	return (<>
