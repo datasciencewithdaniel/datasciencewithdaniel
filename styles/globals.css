@@ -20,3 +20,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.aboutText {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
