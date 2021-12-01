@@ -1,10 +1,13 @@
 // import {Typist} from "react-typist";
 // import "react-typist/dist/Typist.css";
+
+import CompStyles from '../styles/components2.module.css'
+
 const Title = () => {
     return(
         // <Typist avgTypingDelay={120}>
             <div className="container">
-                    <h1>Data Science with Daniel</h1>
+                    <h1 className="text-2xl">Data Science with Daniel</h1>
                     <h4>Build. Share. Learn.</h4>
                     <img 
                         src="/images/White_Logo2.png"

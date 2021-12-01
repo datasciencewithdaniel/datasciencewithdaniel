@@ -1,11 +1,11 @@
 import { Nav, Navbar } from 'react-bootstrap';
 
-import CompStyles from '../styles/Components.module.css'
+import CompStyles from '../styles/components2.module.css'
 
 const Navigation = () => {
 
   	return (<>
-        <Navbar expand="lg" variant="dark" className={CompStyles.NavBarBackground}>
+        <Navbar expand="lg" variant="dark">
             <Navbar.Brand href="/">
                 <img
                     src="/images/White_Logo2.png"

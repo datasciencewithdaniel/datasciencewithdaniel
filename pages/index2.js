@@ -3,10 +3,12 @@
 import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Value from '../components/value';
-import Pillars from '../components/pillars';
+// import Pillars from '../components/pillars';
 import About from '../components/about';
 import Community from '../components/community';
 import Contact from '../components/contact';
+
+
 
 const Home = () => {
 	
@@ -14,7 +16,7 @@ const Home = () => {
 		<Navigation/>
         <Title/>
         <Value/>
-        <Pillars/>
+        {/* <Pillars/> */}
         <About/>
         <Community/>
         <Contact/>
