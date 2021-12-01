@@ -21,14 +21,25 @@ a {
   box-sizing: border-box;
 }
 
+
 .aboutText {
   text-align: center;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
-.formfield * {
-  vertical-align: top;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+.title {
+  font-weight: bold;
+  font-size: 86px;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+
+}
+.section { 
+  height: 100vh; 
+}
+
