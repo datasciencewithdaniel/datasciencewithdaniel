@@ -1,6 +1,5 @@
 // import { Typist } from "react-typist";
 // import "react-typist/dist/Typist.css";
-// import FadeInSection from "./FadeInSection";
 
 const Title = () => {
     return(
