@@ -4,8 +4,8 @@ import Links from '../components/links';
 import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Value from '../components/value';
-import Pillars from '../components/pillars/pillars';
-import Projects from '../components/projects/projects';
+import Projects from '../components/projects/Projects';
+import Pillars from '../components/pillars/Pillars';
 import Contact from '../components/contact';
 
 

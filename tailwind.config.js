@@ -1,7 +1,11 @@
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
+  plugins: [
+    require('@tailwindcss/typography'), 
+  ],
   theme: {
     extend: {
+      
       colors: {
         'dswd-blue': '#B4E4F9',
         'dswd-darkblue': '#112240',
