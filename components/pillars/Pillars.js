@@ -28,10 +28,10 @@ const Pillars = () => {
             />
             <PillarsCard
                 name="Learn"
-                body="We help anyone to learn through, which is the newline character. This reflects the beginning of something new for those who are just getting started, a place where anything is possible."
+                body="We help anyone to learn through \n, which is the newline character. This reflects the beginning of something new for those who are just getting started, a place where anything is possible."
                 linktext=" You will always be writing a new line of code as you learn and develop new skills."
                 linkPath="https://www.youtube.com/channel/UCW8QDcOyAqGQ-Hab0PCOprw"
-                icon="/icons/share.svg"
+                icon="/icons/learn.svg"
 
             />
 
