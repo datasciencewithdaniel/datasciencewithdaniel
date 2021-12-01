@@ -1,23 +1,20 @@
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
+import Navigation from '../components/navigation';
+import Title from '../components/title';
+import Value from '../components/value';
+import Pillars from '../components/pillars';
 
 const Home = () => {
 	
   	return (<>
-		<NavPlus/>
+		<Navigation/>
 
-		<PageHeader pageTitle="Data Science with Daniel"/>
+        <Title/>
 
-		<Container>
-			<img 
-				src="/images/GeniusBarS2.png"
-				alt="Genius Bar" 
-				width="100%"
-				height="100%"
-				/>
-		</Container>
+        <Value/>
+
+        <Pillars/>
 
 	</>)
 }
