@@ -1,18 +1,20 @@
 // import {Typist} from "react-typist";
 // import "react-typist/dist/Typist.css";
-
+import FadeInSection from "./FadeInSection";
 const Title = () => {
     return(
         // <Typist avgTypingDelay={120}>
-            <div className="container">
-                    <h1 className="text-2xl">Data Science with Daniel</h1>
-                    <h4>Build. Share. Learn.</h4>
+            <div className="container section">
+                    <div class="title text-center m-20">Data Science with Daniel</div>
+                    <FadeInSection>
+                    <div class="italic text-3xl text-center">Build. Share. Learn.</div>
                     <img 
                         src="/images/White_Logo2.png"
                         alt="Logo" 
-                        width="100"
-                        height="100"
+                        class="center"
                     />
+                    </FadeInSection>
+
             </div>
     //   </Typist>
     )
