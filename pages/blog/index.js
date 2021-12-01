@@ -15,7 +15,7 @@ const Blog = ({ posts }) => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Blog</title>
         <meta name="description" content="Data science with Daniel Blog page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -33,18 +33,31 @@ a {
   font-weight: bold;
   font-size: 86px;
 }
-.center {
+
+.imageCenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 10%;
+}
 
+.imageIcon {
+  float: left;
+  margin-right: 10px;
+  padding-top: 3px;
+  filter: invert(1);
+}
+
+.imageIcon2 {
+  float: left;
+  margin-right: 10px;
+  padding-top: 3px;
 }
 
 .rightLinks {
 	position: fixed;
-    right: 0;
-	bottom: 0;
+  right: 0;
+	top: 0;
 	margin: 1.5rem;
 }
 

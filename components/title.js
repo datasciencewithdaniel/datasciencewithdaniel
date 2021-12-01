@@ -11,7 +11,7 @@ const Title = () => {
                 <img 
                     src="/logo/NewLogo_White_Big_Transparent.png"
                     alt="Logo" 
-                    className="center"
+                    className="imageCenter"
                 />
             </div>
     )

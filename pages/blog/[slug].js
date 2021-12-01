@@ -18,7 +18,7 @@ export default function PostPage({
       <div className='mt-8'>
         <h1 className='text-xl  '>{title}</h1>
         <div className='prose mb-8'>Posted on {date}</div>
-        {/* <img src={cover_image} alt={title} /> */}
+        <img src={cover_image} alt={title} />
        
           <div className='prose prose max-w-none mx-auto' dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
        
