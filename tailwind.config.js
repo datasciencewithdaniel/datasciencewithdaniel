@@ -3,9 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
+        'dswd-blue': '#B4E4F9',
+        'dswd-darkblue': '#112240',
         success: '#0070f3',
         cyan: '#79FFE1',
       },

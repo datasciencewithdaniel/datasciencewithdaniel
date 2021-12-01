@@ -9,7 +9,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: lightslategrey;
+	background-color: #112240;
 }
 
 a {
@@ -19,6 +19,7 @@ a {
 
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 
@@ -39,7 +40,24 @@ a {
   width: 10%;
 
 }
-.section { 
-  height: 100vh; 
+
+.rightLinks {
+	position: fixed;
+    right: 0;
+	bottom: 0;
+	margin: 1.5rem;
 }
 
+.rightLinksText {
+	padding-top: 0.2rem;
+	color: #B4E4F9;
+	/* @apply hover:text-red-400 */
+}
+
+.blueText {
+	color: #B4E4F9;
+}
+
+.blueBack {
+	background-color: #112240;
+}

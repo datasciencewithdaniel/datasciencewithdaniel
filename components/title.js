@@ -1,20 +1,19 @@
-// import {Typist} from "react-typist";
+// import { Typist } from "react-typist";
 // import "react-typist/dist/Typist.css";
 
 const Title = () => {
     return(
-        // <Typist avgTypingDelay={120}>
             <div className="container">
-                    <h1 className="text-2xl">Data Science with Daniel</h1>
-                    <h4>Build. Share. Learn.</h4>
-                    <img 
-                        src="/images/White_Logo2.png"
-                        alt="Logo" 
-                        width="100"
-                        height="100"
-                    />
+                <div className="title text-center m-10">
+                    <p>Data Science with <span className="blueText">Daniel</span></p>
+                </div>
+                <div className="text-3xl text-center m-10">Build. Share. Learn.</div>
+                <img 
+                    src="/logo/NewLogo_White_Big_Transparent.png"
+                    alt="Logo" 
+                    className="center"
+                />
             </div>
-    //   </Typist>
     )
 }
 export default Title
