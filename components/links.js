@@ -25,6 +25,12 @@ const Links = () => {
                 ))}
             </div>
         </div>
+
+        <div className="container w-10/12 border-t-2 mx-auto text-center" style={{display: "flex"}}>
+            {extLinks.map((link, i) => (
+                <div key={i} className="hover:text-red-400 pt-2 pl-5 pr-5">{link}</div>
+            ))}
+        </div>
   </>)
 }
 

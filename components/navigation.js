@@ -4,7 +4,7 @@ const Navigation = () => {
 
   	return (<>
         <Navbar expand="lg" variant="dark">
-            <Navbar.Brand href="/" className="p-1">
+            <Navbar.Brand href="/" className="pl-5">
                 <img
                     src="/logo/NewLogo_White_Small_Transparent.png"
                     alt="White Logo" 
