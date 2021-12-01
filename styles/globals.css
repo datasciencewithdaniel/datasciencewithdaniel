@@ -33,4 +33,19 @@ a {
   width: 10%;
 
 }
-.section { height: 100vh; }
+.titleSection { 
+	height: 100vh; 
+}
+
+.rightLinks {
+	position: fixed;
+    right: 0;
+	bottom: 0;
+	margin: 2rem;
+}
+
+.rightLinksText {
+	padding-top: 0.2rem;
+	color: #B4E4F9;
+	@apply hover:text-red-400
+}
