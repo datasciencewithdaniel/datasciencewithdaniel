@@ -15,12 +15,12 @@ const Home = () => {
 		<Navigation/>
         <section id="title">
             <Title/>
-        </section>
-        <section id="value">
             <Value/>
         </section>
         <section id="pillars">
             <Pillars/>
+        </section>
+        <section id="projects">
         </section>
         <section id="contact">
             <Contact/>
