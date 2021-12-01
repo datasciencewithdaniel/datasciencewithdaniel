@@ -1,13 +1,13 @@
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
-import CompStyles from '../styles/Components.module.css'
+import CompStyles from '../styles/components2.module.css'
 
 const Value = (props) => {
 
   	return (<>
 		<Container>
            <Row>
-			   <Col className={styles.valueText}>
+			   <Col>
 			   We seek to build a community of Data Scientists, so that we can share our passion and 
 			   learn together. We do this by bringing everything and everyone together in one place;
 			   Data Science with Daniel.

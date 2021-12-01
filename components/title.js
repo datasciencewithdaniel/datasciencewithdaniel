@@ -1,5 +1,8 @@
 // import {Typist} from "react-typist";
 // import "react-typist/dist/Typist.css";
+
+import CompStyles from '../styles/components2.module.css'
+
 const Title = () => {
     return(
         // <Typist avgTypingDelay={120}>
