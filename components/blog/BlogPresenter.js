@@ -1,5 +1,5 @@
 
-import BlogCard from '../../components/blog-2/BlogCard'
+import BlogCard from './BlogCard'
 
 
 export default function BlogPresenter({ postObjs }) {
@@ -8,17 +8,11 @@ export default function BlogPresenter({ postObjs }) {
             {postObjs.map((post, index) => (
                 <div key={index} 
                 className=' overflow-hidden cursor-pointer h-full rounded-lg  border-gray-600 border-2 hover:bg-gray-400 ' >
-
                     <div>
                         <BlogCard postObj={post} key={index} />
-
                     </div>
-
                 </div>
-
             ))}
-
         </div>
-
     )
 }

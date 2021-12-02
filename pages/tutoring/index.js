@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Row, Form, Button }  from 'react-bootstrap';
 
-import NavPlus from '../../components/navplus';
 import PageHeader from '../../components/pageheader';
+import Navigation from '../../components/navigation';
+import Title from '../../components/title';
+import PageTitle from '../../components/pageTitle';
 import TutorExperience from '../../components/tutorExperience';
 
 async function postData(url = '', data = {}) {
@@ -101,10 +103,11 @@ class Tutoring extends React.Component {
 
     render() {
     return (<>
-		<NavPlus></NavPlus>
+        <PageHeader title="Home" description="Access to the tutoring service"></PageHeader>
 
-        <PageHeader pageTitle="Tutoring">
-        </PageHeader>
+        <Navigation/>
+        <Title/>
+		<PageTitle title="Tutoring"/>
 
 		<Container>
             <Row>
@@ -278,7 +281,7 @@ class Tutoring extends React.Component {
 
                     <br/>
 
-                    <Button variant="primary" type="submit">
+                    <Button variant="primary" type="submit" className="blueBackLight blueTextDark">
                         Submit
                     </Button>
 

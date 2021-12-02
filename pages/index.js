@@ -1,24 +1,35 @@
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
+import PageHeader from '../components/pageHeader'
+import SectionHeader from '../components/sectionHeader'
+import Links from '../components/links';
+import Navigation from '../components/navigation';
+import Title from '../components/title';
+import Value from '../components/value';
+import Projects from '../components/projects/Projects';
+import Pillars from '../components/pillars/Pillars';
+import Contact from '../components/contact';
 
-import NavPlus from '../components/navplus';
-import PageHeader from '../components/pageheader';
 
 const Home = () => {
 	
   	return (<>
-		<NavPlus/>
-
-		<PageHeader pageTitle="Data Science with Daniel"/>
-
-		<Container>
-			<img 
-				src="/images/GeniusBarS2.png"
-				alt="Genius Bar" 
-				width="100%"
-				height="100%"
-				/>
-		</Container>
-
+        <PageHeader title="Home" description="The website for the Data Science with Daniel community"></PageHeader>
+        
+		<Navigation/>
+        <section className="sectionBreaks" id="title">
+            <Title/>
+            <Value/>
+        </section>
+        <section className="sectionBreaks" id="pillars">
+            <Pillars/>
+        </section>
+        <section className="sectionBreaks" id="projects">
+            <Projects/>
+        </section>
+        {/* <section className="sectionBreaks" id="contact">
+            <Contact/>
+        </section> */}
+        <Links/>
 	</>)
 }
  

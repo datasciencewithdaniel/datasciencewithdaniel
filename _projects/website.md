@@ -1,5 +1,5 @@
 ---
-title: 'datasciencewithdaniel.com.au'
+title: 'website'
 link: 'https://www.datasciencewithdaniel.com.au'
 coverImage: '/images/blog/Post_Online.png'
 release: 'June 25, 2021'
