@@ -4,32 +4,26 @@ import ProjectsCard from './ProjectsCard'
 
 const Projects = () => {
     return (
-
-
         <div className="grid grid-col-1 lg:grid-cols-3 gap-4 m-4 w-10/12 mx-auto py-8 ">
 
             <ProjectsCard
                 name="website"
-                body=" We  create open source projects that anyone can contribute to, helping people to take the leap in starting to code in a collaborative environment."
-                linktext="These projects are often to support the community, or to take an idea and create something that others can find value in. "
+                body="A static website built using React that serves as the landing page for all Data Science with Daniel activities and initiatives"
                 linkPath="https://github.com/datasciencewithdaniel/datasciencewithdaniel"
             />
             <ProjectsCard
                 name="beluga"
-                body="We support anyone on their Data Science journey by providing an environment where they can ask questions, find answers and connect with others."
-                linktext="Join the Discord server to connect with the others or catch the streams on Twitch to be part of sharing knowledge amongst the community."
+                body={"Beluga is a Python library that provides easy access to all of the metrics you need in your classification tasks. We were inspired by a friendly Beluga whale to help others in their Machine Learning projects."}
                 linkPath="https://github.com/datasciencewithdaniel/beluga"
             />
             <ProjectsCard
                 name="penguin"
-                body="We help anyone to learn through \n, which is the newline character. This reflects the beginning of something new for those who are just getting started, a place where anything is possible."
-                linktext=" You will always be writing a new line of code as you learn and develop new skills."
+                body="A Discord bot built using Python that helps manage the Data Science with Daniel community such as organising the tutoring service to match tutors with those looking for help"
                 linkPath="https://github.com/datasciencewithdaniel/penguin"
             />
             <ProjectsCard
                 name="aotidae"
-                body="We help anyone to learn through \n, which is the newline character. This reflects the beginning of something new for those who are just getting started, a place where anything is possible."
-                linktext=" You will always be writing a new line of code as you learn and develop new skills."
+                body="A project that ingests space data from the Sentinel-2 satelite to identify the prevalence of cloud cover. This analysis seeks to input a location and a time period and output the usability of the images."
                 linkPath="https://github.com/datasciencewithdaniel/aotidae"
             />
         </div>

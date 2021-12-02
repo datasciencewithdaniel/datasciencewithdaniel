@@ -1,15 +1,13 @@
-import { Container } from 'react-bootstrap';
-
-import CompStyles from '../styles/Components.module.css'
+import Head from 'next/head'
 
 const PageHeader = (props) => {
 
   	return (<>
-		<Container>
-            <h1 className={CompStyles.mainTitle}>
-				{props.pageTitle}
-            </h1>
-		</Container>
+		<Head>
+			<title>Data Science with Daniel - {props.title}</title>
+			<meta name="description" content={props.description} />
+			<link rel="icon" href="/favicon.ico" />
+		</Head>
 	</>)
 }
 

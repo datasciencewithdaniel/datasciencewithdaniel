@@ -5,7 +5,7 @@ const ProjectsCard = ({ name, body, linkPath }) => {
     return (
 
         <div className=" p-4  border-2 border-gray-50 rounded-lg flex transform duration-500 ease-in-out  hover:bg-white hover:bg-opacity-10 hover:shadow-2xl flex-col">
-            <p>PROJECT</p>
+            <p className="blueText">PROJECT</p>
             <h3 className="text-6xl text-white text-center mt-8 font-semibold mb-2">
                 {name}
             </h3>
@@ -18,7 +18,7 @@ const ProjectsCard = ({ name, body, linkPath }) => {
                 <div className="flex ">
                     <div className="flex-grow">
                         <a target="_blank" href={linkPath} target="_blank"  >
-                            <p className=" text-blue-200 mt-2 text-right ">
+                            <p className="blueText mt-2 text-right ">
                                 GitHub Repo {'>'}
                             </p>
                         </a>

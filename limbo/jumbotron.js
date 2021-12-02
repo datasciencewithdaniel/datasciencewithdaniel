@@ -1,7 +1,7 @@
 import { Jumbotron } from 'react-bootstrap';
 
 import CompStyles from '../styles/Components.module.css'
-import Title from './title';
+import Title from '../components/title';
 
 const Jumbo = () => {
     

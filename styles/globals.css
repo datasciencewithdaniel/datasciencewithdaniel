@@ -58,19 +58,33 @@ a {
 	position: fixed;
   right: 0;
 	top: 0;
-	margin: 1.5rem;
+	margin: 1.3rem;
 }
 
 .rightLinksText {
-	padding-top: 0.2rem;
+	/* padding-top: 0.2rem; */
 	color: #B4E4F9;
-	/* @apply hover:text-red-400 */
+	@apply hover:text-blue-500
 }
 
 .blueText {
 	color: #B4E4F9;
 }
 
+.blueTextDark {
+	color: #112240;
+}
+
+
+.blueBackLight {
+	background-color: #B4E4F9;
+}
+
 .blueBack {
 	background-color: #112240;
+}
+
+.sectionBreaks { 
+  /* height: 100vh;  */
+  margin-bottom: 15rem;
 }

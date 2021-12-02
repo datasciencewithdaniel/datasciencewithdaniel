@@ -15,15 +15,11 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/index2/"><span className="font-bold blueText">Data Science with Daniel</span></Nav.Link>
+                    <Nav.Link href="/"><span className="font-bold blueText">Data Science with Daniel</span></Nav.Link>
                     <Nav.Link href="/">Home</Nav.Link>
-                    {/* <Nav.Link href="/streaming">Streaming</Nav.Link> */}
-                    {/* <Nav.Link href="/index2/#projects">Projects</Nav.Link> */}
-                    {/* <Nav.Link href="https://discord.gg/D3KfXbdZgk">Community</Nav.Link> */}
                     <Nav.Link href="/blog">Blog</Nav.Link>
                     <Nav.Link href="/tutoring">Tutoring</Nav.Link>
-                    {/* <Nav.Link href="mailto:contact@datasciencewithdaniel.com.au">Contact</Nav.Link> */}
-                    {/* <Nav.Link href="/index2/#contact">Contact</Nav.Link> */}
+                    {/* <Nav.Link href="/index/#contact">Contact</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

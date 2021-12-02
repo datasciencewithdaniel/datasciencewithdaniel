@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 
-const PillarsCard = ({ name, body, linktext, linkPath, icon }) => {
+const PillarsCard = ({ name, body, linktext, linkPath, dest, icon }) => {
     return (
 
         <div className=" p-4  border-2 border-gray-50 rounded-lg flex transform duration-500 ease-in-out  hover:bg-white hover:bg-opacity-10 hover:shadow-2xl flex-col">
@@ -20,23 +20,18 @@ const PillarsCard = ({ name, body, linktext, linkPath, icon }) => {
             <dt className="mb-2">
                 <div className="flex ">
                     <div className="flex-grow">
-                            <p className="text-sm font-light  text-justify leading-tight h-14  text-gray-400">
-
-                                {linktext}
-                            </p>
-
+                        <p className="text-sm font-light  text-justify leading-tight h-14  text-gray-400">
+                            {linktext}
+                        </p>
                         <a target="_blank" href={linkPath} target="_blank"  >
-                            <p className=" text-blue-200 mt-2 text-right ">
-                                Join Us Here...
+                            <p className="blueText mt-2 text-right ">
+                                Join Us On {dest}
                             </p>
                         </a>
-
-
                     </div>
                 </div>
             </dt>
         </div>
-
     )
 }
 
