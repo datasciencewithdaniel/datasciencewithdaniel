@@ -6,6 +6,7 @@ import Navigation from '../../components/navigation';
 import Title from '../../components/title';
 import PageTitle from '../../components/pageTitle';
 import TutorExperience from '../../components/tutorExperience';
+import Links from '../../components/links';
 
 async function postData(url = '', data = {}) {
     // Default options are marked with *
@@ -111,7 +112,6 @@ class Tutoring extends React.Component {
 
 		<Container>
             <Row>
-
                 <Form onSubmit={this.submitTutorData}>
                     <Form.Group className="mb-3" controlId="formName">
                         <Form.Label>Name</Form.Label>
@@ -295,7 +295,7 @@ class Tutoring extends React.Component {
 
             </Row>
         </Container>
-
+        <Links/>
     </>)
 }}
 

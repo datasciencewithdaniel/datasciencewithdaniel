@@ -23,7 +23,7 @@ const PillarsCard = ({ name, body, linktext, linkPath, dest, icon }) => {
                         <p className="text-sm font-light  text-justify leading-tight h-14  text-gray-400">
                             {linktext}
                         </p>
-                        <a target="_blank" href={linkPath} target="_blank"  >
+                        <a href={linkPath} target="_blank" rel="noreferrer">
                             <p className="blueText mt-2 text-right ">
                                 Join Us On {dest}
                             </p>

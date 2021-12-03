@@ -11,6 +11,7 @@ import PageHeader from '../../components/pageHeader';
 import Navigation from '../../components/navigation';
 import Title from '../../components/title';
 import PageTitle from '../../components/pageTitle';
+import Links from '../../components/links';
 
 
 const Blog = ({ posts }) => {
@@ -24,6 +25,7 @@ const Blog = ({ posts }) => {
       	<div className="w-10/12 mx-auto my-24">
         	<BlogPresenter postObjs={posts} />
       	</div>
+		<Links/>
     </>)
 }
 
