@@ -5,7 +5,7 @@ import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Value from '../components/value';
 import Projects from '../components/projects/projects';
-import Pillars from '../components/pillars/Pillars';
+import Pillars from '../components/pillars/pillars';
 import Contact from '../components/contact';
 import Links from '../components/links';
 

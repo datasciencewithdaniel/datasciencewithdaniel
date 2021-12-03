@@ -1,5 +1,5 @@
 
-import BlogCard from './BlogCard'
+import BlogCard from './blogCard'
 
 
 export default function BlogPresenter({ postObjs }) {
