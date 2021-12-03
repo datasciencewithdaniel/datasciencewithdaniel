@@ -7,7 +7,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-import PageHeader from '../../components/pageheader';
+import PageHeader from '../../components/pageHeader';
 import Navigation from '../../components/navigation';
 import Title from '../../components/title';
 import PageTitle from '../../components/pageTitle';
