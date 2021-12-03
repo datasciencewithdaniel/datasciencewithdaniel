@@ -17,7 +17,7 @@ const ProjectsCard = ({ name, body, linkPath }) => {
             <dt className="mb-2">
                 <div className="flex ">
                     <div className="flex-grow">
-                        <a target="_blank" href={linkPath} target="_blank"  >
+                        <a href={linkPath} target="_blank" rel="noreferrer">
                             <p className="blueText mt-2 text-right ">
                                 GitHub Repo {'>'}
                             </p>
