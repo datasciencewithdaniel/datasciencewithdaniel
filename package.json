@@ -7,10 +7,16 @@
     "build": "next build && next export",
     "start": "next dev",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.31.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/material": "^5.2.2",
+    "@tailwindcss/typography": "^0.4.1",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
     "apollo-link-http": "^1.5.17",
@@ -22,20 +28,27 @@
     "graphql": "^15.5.1",
     "graphql-tag": "^2.12.4",
     "gray-matter": "^4.0.3",
+    "marked": "^4.0.5",
     "next": "^11.1.2",
+    "next-sitemap": "^1.6.203",
     "npm": "^7.24.0",
     "npm-check-updates": "^11.8.5",
     "package.json": "^2.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
+    "react-device-detect": "^2.1.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
+    "react-typist": "^2.0.5",
     "remark": "^14.0.1",
     "remark-html": "^14.0.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.2"
+    "eslint-config-next": "^11.1.2",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
   }
 }
