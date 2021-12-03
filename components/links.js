@@ -53,7 +53,7 @@ const extLinks = [
 
 const Links = () => {
     return (<>
-        <div className="rightLinks">
+        <div id="nav-right" className="rightLinks">
             <div className="visible">
                 {extLinks.map((link, i) => (
                     <div key={i} className="hover:text-red-400">{link}</div>

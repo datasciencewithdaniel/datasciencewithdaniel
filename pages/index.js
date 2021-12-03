@@ -1,13 +1,13 @@
 // import { Container } from 'react-bootstrap';
 import PageHeader from '../components/pageHeader'
-import SectionHeader from '../components/sectionHeader'
-import Links from '../components/links';
+// import SectionHeader from '../components/sectionHeader'
 import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Value from '../components/value';
 import Projects from '../components/projects/Projects';
 import Pillars from '../components/pillars/Pillars';
 import Contact from '../components/contact';
+import Links from '../components/links';
 
 
 const Home = () => {
