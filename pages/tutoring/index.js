@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Form, Button }  from 'react-bootstrap';
 
-import PageHeader from '../../components/pageHeader';
+import PageHeader from '../../components/pageHead';
 import Navigation from '../../components/navigation';
 import Title from '../../components/title';
 import PageTitle from '../../components/pageTitle';
