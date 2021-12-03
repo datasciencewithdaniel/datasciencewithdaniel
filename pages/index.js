@@ -1,5 +1,5 @@
 // import { Container } from 'react-bootstrap';
-import PageHeader from '../components/pageHeader'
+import PageHeader from '../components/pageHead'
 // import SectionHeader from '../components/sectionHeader'
 import Navigation from '../components/navigation';
 import Title from '../components/title';
