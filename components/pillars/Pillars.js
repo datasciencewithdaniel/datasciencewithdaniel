@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import PillarsCard from './PillarsCard'
+import PillarsCard from './pillarsCard'
 
 
 const Pillars = () => {
