@@ -1,14 +1,12 @@
 import { Nav, Navbar } from 'react-bootstrap';
 
-import CompStyles from '../styles/Components.module.css'
-
 const Navigation = () => {
 
   	return (<>
-        <Navbar expand="lg" variant="dark" className={CompStyles.NavBarBackground}>
-            <Navbar.Brand href="/">
+        <Navbar expand="lg" variant="dark">
+            <Navbar.Brand href="/" className="pl-5">
                 <img
-                    src="/images/White_Logo2.png"
+                    src="/logo/NewLogo_White_Small_Transparent.png"
                     alt="White Logo" 
                     width="50"
                     height="50"
@@ -17,14 +15,11 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/"><b>Data Science with Daniel</b></Nav.Link> {/* MAY CHANGE LOOK */}
-                    <Nav.Link href="/about">About</Nav.Link>
-                    {/* <Nav.Link href="/streaming">Streaming</Nav.Link> */}
-                    <Nav.Link href="/projects">Projects</Nav.Link>
-                    <Nav.Link href="https://discord.gg/D3KfXbdZgk">Community</Nav.Link>
+                    <Nav.Link href="/"><span className="font-bold blueText">Data Science with Daniel</span></Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>
                     <Nav.Link href="/tutoring">Tutoring</Nav.Link>
-                    <Nav.Link href="mailto:contact@datasciencewithdaniel.com.au">Contact</Nav.Link>
+                    {/* <Nav.Link href="/index/#contact">Contact</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

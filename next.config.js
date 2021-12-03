@@ -1,8 +1,7 @@
-// const isProd = 'production'
 
 module.exports = {
   reactStrictMode: true,
   trailingSlash: true,
-  // assetPrefix: isProd ? 'https://www.datasciencewithdaniel.com.au' : '',
-
+  siteUrl: 'https://www.datasciencewithdaniel.com.au',
+  generateRobotsTxt: true,
 }
