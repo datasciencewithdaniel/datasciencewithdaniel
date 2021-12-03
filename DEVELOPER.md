@@ -32,6 +32,8 @@ npm run start
 
 This server can be stopped with ```Control-C``` and the Docker container can be stopped using ```exit```
 
+If this is being deployed ```prod``` or simply submitted to ```main```, ensure that ```npm run build``` succeeds beforehand!
+
 ## Contribution Guidelines
 
 1. Please raise a Pull Request into the main branch for testing before being deployed to the live site
