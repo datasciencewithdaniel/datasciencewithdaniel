@@ -2,10 +2,9 @@
 
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
-// import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const extLinks = [
-    <a href="https://www.datasciencewithdaniel.com.au" target="_blank">
+    <a href="https://discord.gg/D3KfXbdZgk" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText"><img 
             src="/icons/discord.svg"
             alt="Discord" 
@@ -14,11 +13,11 @@ const extLinks = [
             height="20"
             className="imageIcon"
         />/ discord</p></div></a>,
-    <a href="https://github.com/datasciencewithdaniel" target="_blank">
+    <a href="https://github.com/datasciencewithdaniel" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText">
             <GitHubIcon className="imageIcon2" style={{ fontSize: 19 }}></GitHubIcon>
         / github</p></div></a>,
-    <a href="https://www.youtube.com/channel/UCW8QDcOyAqGQ-Hab0PCOprw" target="_blank">
+    <a href="https://www.youtube.com/channel/UCW8QDcOyAqGQ-Hab0PCOprw" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText"><img 
             src="/icons/youtube.svg"
             alt="Discord" 
@@ -27,7 +26,7 @@ const extLinks = [
             height="20"
             className="imageIcon"
         />/ youtube</p></div></a>,
-    <a href="https://www.linkedin.com/company/71052475/" target="_blank">
+    <a href="https://www.linkedin.com/company/71052475/" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText"><img 
             src="/icons/linkedin.svg"
             alt="Discord" 
@@ -36,7 +35,7 @@ const extLinks = [
             height="20"
             className="imageIcon"
         />/ linkedin</p></div></a>,
-    <a href="https://www.twitch.tv/datasciencewithdaniel" target="_blank">
+    <a href="https://www.twitch.tv/datasciencewithdaniel" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText"><img 
             src="/icons/twitch.svg"
             alt="Discord" 
@@ -45,7 +44,7 @@ const extLinks = [
             height="20"
             className="imageIcon"
         />/ twitch</p></div></a>,
-    <a href="mailto:contact@datasciencewithdaniel.com.au" target="_blank">
+    <a href="mailto:contact@datasciencewithdaniel.com.au" target="_blank" rel="noreferrer">
         <div><p className="rightLinksText">
             <EmailIcon className="imageIcon2" style={{ fontSize: 21 }}></EmailIcon>
         / email</p></div></a>,

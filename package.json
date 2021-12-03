@@ -1,14 +1,13 @@
 {
   "name": "datasciencewithdaniel",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "lockfileVersion": 2,
   "private": true,
   "scripts": {
     "build": "next build && next export",
     "start": "next dev",
     "lint": "next lint",
-    "export": "next export",
-    "postbuild": "next-sitemap"
+    "export": "next export"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.31.0",
