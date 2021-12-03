@@ -88,3 +88,9 @@ a {
   /* height: 100vh;  */
   margin-bottom: 15rem;
 }
+
+@media screen and (max-width: 1440px) {
+  #nav-right {
+    display: none;
+  }
+}

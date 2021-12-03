@@ -14,5 +14,5 @@ We seek to build a community of Data Scientists, so that we can share our passio
 If you would like to contribute to the Data Science with Daniel site, please see the developer guide [here](DEVELOPER.md).
 
 <p align="center">
-  <img src="./public/images/DataSciencewithDaniel.png" />
+  <img src="./public/images/DSWD_Info_v2.png" />
 </p>
