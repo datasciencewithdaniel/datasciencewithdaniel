@@ -13,7 +13,7 @@ import Links from '../components/links';
 const Home = () => {
 	
   	return (<>
-        <PageHeader title="Home" description="The website for the Data Science with Daniel community"></PageHeader>
+        <PageHeader title="" description="The website for the Data Science with Daniel community"></PageHeader>
         
 		<Navigation/>
         <section className="sectionBreaks" id="title">

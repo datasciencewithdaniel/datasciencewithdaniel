@@ -16,7 +16,7 @@ import Links from '../../components/links';
 
 const Blog = ({ posts }) => {
   	return (<>
-      	<PageHeader title="Blog" description="The website for the Data Science with Daniel community"></PageHeader>
+      	<PageHeader title=" - Blog" description="The website for the Data Science with Daniel community"></PageHeader>
 
 		<Navigation/>
         <Title/>
