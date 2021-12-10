@@ -104,7 +104,7 @@ class Tutoring extends React.Component {
 
     render() {
     return (<>
-        <PageHeader title="Home" description="Access to the tutoring service"></PageHeader>
+        <PageHeader title=" - Tutoring" description="Access to the tutoring service"></PageHeader>
 
         <Navigation/>
         <Title/>
