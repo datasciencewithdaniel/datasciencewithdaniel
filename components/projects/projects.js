@@ -13,7 +13,7 @@ const Projects = () => {
             />
             <ProjectsCard
                 name="beluga"
-                body={"Beluga is a Python library that provides easy access to all of the metrics you need in your classification tasks. We were inspired by a friendly Beluga whale to help others in their Machine Learning projects."}
+                body="Beluga is a Python library that provides easy access to all of the metrics you need in your classification tasks. We were inspired by a friendly Beluga whale to help others in their Machine Learning projects."
                 linkPath="https://github.com/datasciencewithdaniel/beluga"
             />
             <ProjectsCard
@@ -26,8 +26,12 @@ const Projects = () => {
                 body="A project that ingests space data from the Sentinel-2 satelite to identify the prevalence of cloud cover. This analysis seeks to input a location and a time period and output the usability of the images."
                 linkPath="https://github.com/datasciencewithdaniel/aotidae"
             />
+            <ProjectsCard
+                name="elephant"
+                body="A project utilises Flask and React to create a skeleton to surface Machine Learning models so that end users can easily interact and perform predictions."
+                linkPath="https://github.com/datasciencewithdaniel/elephant"
+            />
         </div>
-
     )
 }
 
